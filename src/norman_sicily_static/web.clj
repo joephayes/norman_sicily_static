@@ -7,14 +7,16 @@
             [optimus.strategies :refer [serve-live-assets]]
             [clojure.java.io :as io]
             [clojure.string :as str]
-            [hiccup.page :refer [html5]]
-            [stasis.core :as stasis]))
+            [hiccup.page :refer [html5 include-css include-js]]
+            [stasis.core :as stasis]
+            [norman-sicily-static.util :as util]))
 
 (defn get-assets []
   (assets/load-assets "public" [#".*"]))
 
 (defn layout-page [request page]
   (html5
+    {:lang "en"}
     [:head
      [:meta {:charset "utf-8"}]
      [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge"}]
@@ -23,15 +25,18 @@
      [:title "The Norman Sicily Project"]
      [:link {:rel "stylesheet" :href "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" :integrity "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" :crossorigin "anonymous"} ]
      [:link {:rel "stylesheet" :href "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" :integrity "sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" :crossorigin "anonymous"}]
-     [:link {:rel "stylesheet" :href (link/file-path request "/styles/main.css")}]]
+     (include-css (link/file-path request "/styles/main.css"))]
     [:body
-     [:div.body page]
+     [:div.body
+      util/navbar
+      page]
+      util/footer
      [:script
       {:src "http://code.jquery.com/jquery-3.2.1.slim.min.js"
        :integrity "sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
        :crossorigin "anonymous"}]
      [:script {:src "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" :integrity "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" :crossorigin "anonymous"}]
-     [:script {:src (link/file-path request "/scripts/app.js")}]]))
+     (include-js (link/file-path request "/scripts/app.js"))]))
 
 (defn partial-pages [pages]
   (zipmap (keys pages)
