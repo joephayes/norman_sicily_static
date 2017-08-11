@@ -4,7 +4,7 @@
   [:nav {:class "navbar navbar-default navbar-static-top"}
    [:div {:class "container"}
     [:div {:class "navbar-header"}
-     [:a {:href "#" :class "btn btn-default navbar-btn image-button about-button navbar-right"} [:div {:class "overlay-text" :data-hover "About"}]]
+     [:a {:href "/about/" :class "btn btn-default navbar-btn image-button about-button navbar-right"} [:div {:class "overlay-text" :data-hover "About"}]]
      [:a {:href "#" :class "btn btn-default navbar-btn image-button resources-button navbar-right"} [:div {:class "overlay-text" :data-hover "Resources"}]]
      [:a {:href "#" :class "btn btn-default navbar-btn image-button chattels-button navbar-right"} [:div {:class "overlay-text" :data-hover "Chattels"}]]
      [:a {:href "#" :class "btn btn-default navbar-btn image-button places-button navbar-right"} [:div {:class "overlay-text" :data-hover "Places"}]]

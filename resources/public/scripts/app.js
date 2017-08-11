@@ -3,8 +3,10 @@ $(document).ready(function() {
   var pathname = window.location.pathname;
   var selector = '.navbar div div a.navbar-btn[href="PATHNAME"]';
   switch (pathname) {
-    case '/people.html':
-      $(selector.replace('PATHNAME','/people.html')).addClass('active');
+    case '/about/':
+      $(selector.replace('PATHNAME','/about/')).addClass('active');
+    case '/people/':
+      $(selector.replace('PATHNAME','/people/')).addClass('active');
       break;
     default:
       $(selector.replace('PATHNAME','/')).addClass('active');
