@@ -5,6 +5,10 @@ $(document).ready(function() {
   switch (pathname) {
     case '/about/':
       $(selector.replace('PATHNAME','/about/')).addClass('active');
+      break;
+    case '/chattels/':
+      $(selector.replace('PATHNAME','/chattels/')).addClass('active');
+      break;
     case '/people/':
       $(selector.replace('PATHNAME','/people/')).addClass('active');
       break;
