@@ -9,7 +9,8 @@
                  [hiccup "1.0.5"]
                  [enlive "1.1.6"]
                  [clygments "1.0.0"]
-                 [optimus "0.19.3"]]
+                 [optimus "0.19.3"]
+                 [optimus-less "0.2.1"]]
   :ring {:handler norman-sicily-static.web/app}
   :aliases {"build-site" ["run" "-m" "norman-sicily-static.web/export"]}
   :profiles {:dev {:plugins [[lein-ring "0.12.0"]]}

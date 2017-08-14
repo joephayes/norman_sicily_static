@@ -5,6 +5,7 @@
             [optimus.optimizations :as optimizations]
             [optimus.prime :as optimus]
             [optimus.strategies :refer [serve-live-assets]]
+            [optimus-less.core]
             [clojure.java.io :as io]
             [clojure.string :as str]
             [hiccup.page :refer [html5 include-css include-js]]
@@ -12,7 +13,12 @@
             [norman-sicily-static.util :as util]))
 
 (defn get-assets []
-  (assets/load-assets "public" [#".*"]))
+  (concat
+    (assets/load-assets "public" [#"/icons/.*"])
+    (assets/load-assets "public" [#"/images/.*"])
+    (assets/load-assets "public" ["/scripts/app.js" "/scripts/bootstrap.min.js"])
+    (assets/load-bundle "public" "app.css" ["/styles/app.less"])
+    (assets/load-assets "public" [#"/svg/.*"])))
 
 (defn layout-page [request page]
   (html5
@@ -23,9 +29,7 @@
      [:meta {:name "viewport"
              :content "width=device-width, initial-scale=1.0"}]
      [:title "The Norman Sicily Project"]
-     [:link {:rel "stylesheet" :href "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" :integrity "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" :crossorigin "anonymous"} ]
-     [:link {:rel "stylesheet" :href "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" :integrity "sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" :crossorigin "anonymous"}]
-     (include-css (link/file-path request "/styles/main.css"))]
+     (include-css (link/file-path request "/bundles/app.css"))]
     [:body
      [:div.body
       util/navbar
@@ -35,7 +39,7 @@
       {:src "http://code.jquery.com/jquery-3.2.1.slim.min.js"
        :integrity "sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
        :crossorigin "anonymous"}]
-     [:script {:src "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" :integrity "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" :crossorigin "anonymous"}]
+     (include-js (link/file-path request "/scripts/bootstrap.min.js"))
      (include-js (link/file-path request "/scripts/app.js"))]))
 
 (defn partial-pages [pages]
@@ -68,6 +72,7 @@
 
 (defn export []
   (let [assets (optimizations/all (get-assets) {})]
+    (println assets)
     (stasis/empty-directory! export-dir)
     (optimus.export/save-assets assets export-dir)
     (stasis/export-pages (get-pages) export-dir {:optimus-assets assets})))
