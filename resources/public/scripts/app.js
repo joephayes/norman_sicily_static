@@ -12,6 +12,9 @@ $(document).ready(function() {
     case '/people/':
       $(selector.replace('PATHNAME','/people/')).addClass('active');
       break;
+    case '/places/':
+      $(selector.replace('PATHNAME','/places/')).addClass('active');
+      break;
     case '/resources/':
       $(selector.replace('PATHNAME','/resources/')).addClass('active');
       break;
