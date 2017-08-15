@@ -1,6 +1,7 @@
 (ns norman-sicily-static.util)
 
-(def navbar
+(defn render-navbar
+  []
   [:nav {:class "navbar navbar-default navbar-static-top"}
    [:div {:class "container"}
     [:div {:class "navbar-header"}
@@ -12,7 +13,8 @@
      [:a {:href "/" :class"btn btn-default navbar-btn image-button home-button navbar-right"} [:div { :class "overlay-text" :data-hover "Home"}]]
      [:a {:href "/" :class "navbar-left"} [:img {:class "logo" :src "/images/title_bar.png"}]]]]])
 
-(def footer
+(defn render-footer
+  []
   [:div {:class "footer"}
    [:div {:class "container"}
     [:div {:class "footer-links"}

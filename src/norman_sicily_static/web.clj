@@ -32,9 +32,9 @@
      (include-css (link/file-path request "/bundles/app.css"))]
     [:body
      [:div.body
-      util/navbar
+      (util/render-navbar)
       page]
-      util/footer
+      (util/render-footer)
      [:script
       {:src "https://code.jquery.com/jquery-3.2.1.slim.min.js"
        :integrity "sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
