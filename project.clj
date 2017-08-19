@@ -12,7 +12,10 @@
                  [optimus "0.19.3"]
                  [optimus-less "0.2.1"]]
   :ring {:handler norman-sicily-static.web/app}
-  :aliases {"build-site" ["run" "-m" "norman-sicily-static.web/export"]}
+  :aliases {"build-site" ["run" "-m" "norman-sicily-static.web/export"]
+            "autotest" ["with-profile" "test" "midje" ":autotest"]
+            "serve" ["ring" "server"]}
+  :clean-targets [:target-path "dist"]
   :profiles {:dev {:plugins [[lein-ring "0.12.0"]]}
              :test {:dependencies [[midje "1.8.3"]]
                     :plugins [[lein-midje "3.2.1"]]}})
