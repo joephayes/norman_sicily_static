@@ -9,6 +9,7 @@
             [clojure.java.io :as io]
             [clojure.string :as str]
             [hiccup.page :refer [html5 include-css include-js]]
+            [hiccup.element :refer [javascript-tag]]
             [stasis.core :as stasis]
             [norman-sicily-static.util :as util]))
 
@@ -29,12 +30,21 @@
      [:meta {:name "viewport"
              :content "width=device-width, initial-scale=1.0"}]
      [:title "The Norman Sicily Project"]
-     (include-css (link/file-path request "/bundles/app.css"))]
+     (include-css (link/file-path request "/bundles/app.css"))
+     (javascript-tag (str
+                       "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                       ga('create', 'UA-75482271-1', 'auto');
+                       ga('require', 'linkid');
+                       ga('send', 'pageview');"))]
     [:body
      [:div.body
       (util/render-navbar)
       page]
-      (util/render-footer)
+     (util/render-footer)
      [:script
       {:src "https://code.jquery.com/jquery-3.2.1.slim.min.js"
        :integrity "sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
