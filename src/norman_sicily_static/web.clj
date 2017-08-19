@@ -1,5 +1,6 @@
 (ns norman-sicily-static.web
   (:require [optimus.assets :as assets]
+            [optimus.html]
             [optimus.export]
             [optimus.link :as link]
             [optimus.optimizations :as optimizations]
@@ -30,7 +31,7 @@
      [:meta {:name "viewport"
              :content "width=device-width, initial-scale=1.0"}]
      [:title "The Norman Sicily Project"]
-     (include-css (link/file-path request "/bundles/app.css"))
+     (optimus.html/link-to-css-bundles request ["app.css"])
      (javascript-tag (str
                        "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -82,7 +83,6 @@
 
 (defn export []
   (let [assets (optimizations/all (get-assets) {})]
-    (println assets)
     (stasis/empty-directory! export-dir)
     (optimus.export/save-assets assets export-dir)
     (stasis/export-pages (get-pages) export-dir {:optimus-assets assets})))
