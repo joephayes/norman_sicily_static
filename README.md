@@ -1,14 +1,26 @@
-# norman_sicily_static
+# The Norman Sicily Project
 
-A Clojure library designed to ... well, that part is up to you.
+The static interim website for
+[The Norman Sicily Project](http://www.normansicily.org)
 
-## Usage
+Made with [Stasis](https://github.com/magnars/stasis) for static site
+generation, [Hiccup](https://github.com/weavejester/hiccup) for building HTML
+and [Optimus](https://github.com/magnars/optimus) for frontend optimization.
 
-FIXME
+Start a local version:
+
+    lein serve
+
+Run autotests:
+
+    lein autotest
+
+Build a new version of the site:
+
+    lein build-site
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 Dawn M. Hayes and Joseph P. Hayes
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Released under the MIT license.
