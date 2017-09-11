@@ -1,4 +1,4 @@
-(ns norman-sicily-static.util)
+(ns norman-sicily-static.partials)
 
 (defn render-navbar
   []

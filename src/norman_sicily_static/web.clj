@@ -12,7 +12,13 @@
             [hiccup.page :refer [html5 include-css include-js]]
             [hiccup.element :refer [javascript-tag]]
             [stasis.core :as stasis]
-            [norman-sicily-static.util :as util]))
+            [norman-sicily-static.partials :as partials]
+            [norman-sicily-static.about :as about]
+            [norman-sicily-static.chattels :as chattels]
+            [norman-sicily-static.people :as people]
+            [norman-sicily-static.places :as places]
+            [norman-sicily-static.resources :as resources]
+            [norman-sicily-static.index :as index]))
 
 (defn get-assets []
   (concat
@@ -43,9 +49,9 @@
                        ga('send', 'pageview');"))]
     [:body
      [:div.body
-      (util/render-navbar)
+      (partials/render-navbar)
       page]
-     (util/render-footer)
+     (partials/render-footer)
      [:script
       {:src "https://code.jquery.com/jquery-3.2.1.slim.min.js"
        :integrity "sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
@@ -62,7 +68,13 @@
     {:public
      (stasis/slurp-directory "resources/public" #".*\.(html|css|js)$")
      :partials
-     (partial-pages (stasis/slurp-directory "resources/partials" #".*\.html$"))}))
+     (let [pages {"/" (index/render-page)
+                  "/about/" (about/render-page)
+                  "/resources/" (resources/render-page)
+                  "/chattels/" (chattels/render-page)
+                  "/places/" (places/render-page)
+                  "/people/" (people/render-page)}]
+       (partial-pages pages))}))
 
 (defn prepare-page [page req]
   (-> (if (string? page) page (page req))))
