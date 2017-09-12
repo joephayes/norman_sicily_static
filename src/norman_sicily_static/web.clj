@@ -18,7 +18,9 @@
             [norman-sicily-static.people :as people]
             [norman-sicily-static.places :as places]
             [norman-sicily-static.resources :as resources]
-            [norman-sicily-static.index :as index]))
+            [norman-sicily-static.index :as index]
+            [norman-sicily-static.analytics :as analytics]
+            [norman-sicily-static.interpretations :as interpretations]))
 
 (defn get-assets []
   (concat
@@ -71,6 +73,8 @@
      (let [pages {"/" (index/render-page)
                   "/about/" (about/render-page)
                   "/resources/" (resources/render-page)
+                  "/analytics/" (analytics/render-page)
+                  "/interpretations/" (interpretations/render-page)
                   "/chattels/" (chattels/render-page)
                   "/places/" (places/render-page)
                   "/people/" (people/render-page)}]

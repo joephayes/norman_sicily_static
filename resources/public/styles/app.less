@@ -88,6 +88,10 @@ div.overlay-text:hover:after {
   transition: opacity 0.3s;
 }
 
+.image-button {
+  padding: 6px 6px;
+}
+
 .image-button:hover:before {
   opacity: 0.3;
 }
@@ -102,7 +106,8 @@ div.overlay-text:hover:after {
   display:inline-block;
   vertical-align: text-top;
   margin-top: 15px;
-  margin-left: -25px;
+  margin-left: -45px;
+  padding-right: 15px;
 }
 
 .home-button:before{
@@ -127,6 +132,14 @@ div.overlay-text:hover:after {
 
 .chattels-button:before{
   background-image : url(/icons/chattels.png);
+}
+
+.analytics-button:before{
+  background-image : url(/icons/analytics.png);
+}
+
+.interpretations-button:before{
+  background-image : url(/icons/interpretations.png);
 }
 
 .credits-header {
@@ -263,4 +276,37 @@ hr {
 
 .centered-responsive-img {
   margin: 0 auto;
+}
+
+.circle-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  color: white;
+}
+
+.fa-github {
+  background: #000;
+  color: white;
+}
+
+.circle-icon:hover {
+  text-shadow: 0px 0px 5px #FFFFFF;
 }
