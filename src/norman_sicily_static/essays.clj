@@ -1,4 +1,4 @@
-(ns norman-sicily-static.interpretations)
+(ns norman-sicily-static.essays)
 
 (defn render-page
   []
@@ -7,7 +7,7 @@
     [:div {:class "col-lg-12"}
      [:div {:class "inner"}
       [:div {:class "text-center"}
-       [:div {:class "credits-header"} "Interpretations Page"]
+       [:div {:class "credits-header"} "Essays Page"]
        [:p "Five substantial scholarly essays will be available that interpret
            the data broadly; three will be historical in nature and focus on
            new interpretations of Norman society and two will detail the
