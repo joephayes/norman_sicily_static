@@ -21,8 +21,8 @@ $(document).ready(function() {
     case '/analytics/':
       $(selector.replace('PATHNAME','/analytics/')).addClass('active');
       break;
-    case '/interpretations/':
-      $(selector.replace('PATHNAME','/interpretations/')).addClass('active');
+    case '/essays/':
+      $(selector.replace('PATHNAME','/essays/')).addClass('active');
       break;
     default:
       $(selector.replace('PATHNAME','/')).addClass('active');

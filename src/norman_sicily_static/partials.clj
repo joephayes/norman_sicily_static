@@ -8,7 +8,7 @@
      [:a {:href "/about/" :class "btn btn-default navbar-btn image-button about-button navbar-right"} [:div {:class "overlay-text" :data-hover "About"}]]
      [:a {:href "/resources/" :class "btn btn-default navbar-btn image-button resources-button navbar-right"} [:div {:class "overlay-text" :data-hover "Resources"}]]
      [:a {:href "/analytics/" :class "btn btn-default navbar-btn image-button analytics-button navbar-right"} [:div {:class "overlay-text" :data-hover "Analytics"}]]
-     [:a {:href "/interpretations/" :class "btn btn-default navbar-btn image-button interpretations-button navbar-right"} [:div {:class "overlay-text" :data-hover "Interpretations"}]]
+     [:a {:href "/essays/" :class "btn btn-default navbar-btn image-button essays-button navbar-right"} [:div {:class "overlay-text" :data-hover "Essays"}]]
      [:a {:href "/chattels/" :class "btn btn-default navbar-btn image-button chattels-button navbar-right"} [:div {:class "overlay-text" :data-hover "Chattels"}]]
      [:a {:href "/places/" :class "btn btn-default navbar-btn image-button places-button navbar-right"} [:div {:class "overlay-text" :data-hover "Places"}]]
      [:a {:href "/people/" :class "btn btn-default navbar-btn image-button people-button navbar-right"} [:div {:class "overlay-text" :data-hover"People"}]]
@@ -22,10 +22,10 @@
     [:div {:class "row bottom-padding"}
      [:div {:class "col-12-xs"}
       [:div {:class "center-block"}
-       [:a {:href "https://www.facebook.com/TheNormanSicilyProject/" :class "side-padded"} [:i {:class "fa fa-facebook fa-2x circle-icon" :title "Facebook"}]]
-       [:a {:href "https://twitter.com/Norman_Sicily" :class "side-padded"} [:i {:class "fa fa-twitter fa-2x circle-icon" :title "Twitter"}]]
-       [:a {:href "https://www.instagram.com/thenormansicilyproject/?hl=en" :class "side-padded"} [:i {:class "fa fa-instagram fa-2x circle-icon" :title "Instagram"}]]
-       [:a {:href "https://github.com/the-norman-sicily-project" :class "side-padded"} [:i {:class "fa fa-github fa-2x circle-icon" :title "GitHub"}]]]]]
+       [:a {:href "https://www.facebook.com/TheNormanSicilyProject/" :class "side-padded" :target "_blank"} [:i {:class "fa fa-facebook fa-1x rounded-corner-icon" :title "Facebook"}]]
+       [:a {:href "https://twitter.com/Norman_Sicily" :class "side-padded" :target "_blank"} [:i {:class "fa fa-twitter fa-1x rounded-corner-icon" :title "Twitter"}]]
+       [:a {:href "https://www.instagram.com/thenormansicilyproject/?hl=en" :class "side-padded" :target "_blank"} [:i {:class "fa fa-instagram fa-1x rounded-corner-icon" :title "Instagram"}]]
+       [:a {:href "https://github.com/the-norman-sicily-project" :class "side-padded" :target "_blank"} [:i {:class "fa fa-github fa-1x rounded-corner-icon" :title "GitHub"}]]]]]
     [:div {:class "row"}
      [:div {:class="col-12-xs"}
       [:div {:class "footer-links"}
