@@ -5,7 +5,7 @@
             [optimus.link :as link]
             [optimus.optimizations :as optimizations]
             [optimus.prime :as optimus]
-            [optimus.strategies :refer [serve-live-assets]]
+            [optimus.strategies :as strategies]
             [optimus-less.core]
             [clojure.java.io :as io]
             [clojure.string :as str]
@@ -20,7 +20,13 @@
             [norman-sicily-static.resources :as resources]
             [norman-sicily-static.index :as index]
             [norman-sicily-static.analytics :as analytics]
-            [norman-sicily-static.essays :as essays]))
+            [norman-sicily-static.essays :as essays]
+            [ring.middleware.content-type :refer [wrap-content-type]]
+            [ring.middleware.not-modified :refer [wrap-not-modified]]))
+
+(def config
+  (let [env (or (System/getenv "ENVIRONMENT") "dev")]
+      {:env (keyword env) }))
 
 (defn get-assets []
   (concat
@@ -90,10 +96,16 @@
 (defn get-pages []
   (prepare-pages (get-raw-pages)))
 
-(def app (optimus/wrap (stasis/serve-pages get-pages)
-                       get-assets
-                       optimizations/all
-                       serve-live-assets))
+(def app (-> (stasis/serve-pages get-pages)
+             (optimus/wrap get-assets
+                           (if (= :dev (:env config))
+                             optimizations/none
+                             optimizations/all)
+                           (if (= :dev (:env config))
+                             strategies/serve-live-assets
+                             strategies/serve-frozen-assets))
+             (wrap-content-type)
+             (wrap-not-modified)))
 
 (def export-dir "dist")
 
