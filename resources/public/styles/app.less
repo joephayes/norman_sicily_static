@@ -30,16 +30,14 @@
 
 body:before {
   content: "";
-  background: url(/svg/sun.svg) 0 0 no-repeat;
+  background: url(/svg/sun.svg);
   width: 100%;
   height: 100%;
-  top: 275px;
-  left: 3px;
+  top: 75px;
+  left: 100px;
   z-index: -1;
   opacity: 0.1;
   position: absolute;
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
 }
 
 button,input,select,textarea {
@@ -204,7 +202,7 @@ div.footer {
   color: @sn-dark-brown;
   text-align: center;
   padding: 30px 0;
-  margin-top: 70px;
+  margin-top: 35px;
   border-top: 1px solid #E5E5E5;
 }
 
@@ -285,28 +283,12 @@ hr {
   text-align: center;
   vertical-align: middle;
   padding: 9px;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-instagram {
-  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
-  color: white;
-}
-
-.fa-github {
-  background: #000;
-  color: white;
+  background: @sn-dark-brown;
+  color: @sn-light-brown;
 }
 
 .rounded-corner-icon:hover {
-  text-shadow: 0px 0px 5px #FFFFFF;
+  background: @sn-light-brown;
+  color: @sn-dark-brown;
+  border: 1px solid @sn-dark-brown;
 }
