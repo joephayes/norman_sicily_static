@@ -32,7 +32,7 @@
   (concat
     (assets/load-assets "public" [#"/icons/.*"])
     (assets/load-assets "public" [#"/images/.*"])
-    (assets/load-assets "public" ["/scripts/app.js" "/scripts/bootstrap.min.js"])
+    (assets/load-assets "public" ["/scripts/app.js" "/scripts/bootstrap.min.js" "/scripts/tether.min.js"])
     (assets/load-bundle "public" "app.css" ["/styles/app.less"])
     (assets/load-assets "public" [#"/svg/.*"])))
 
@@ -64,6 +64,7 @@
       {:src "https://code.jquery.com/jquery-3.2.1.slim.min.js"
        :integrity "sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
        :crossorigin "anonymous"}]
+     (include-js (link/file-path request "/scripts/tether.min.js"))
      (include-js (link/file-path request "/scripts/bootstrap.min.js"))
      (include-js (link/file-path request "/scripts/app.js"))]))
 

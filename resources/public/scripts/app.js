@@ -27,4 +27,8 @@ $(document).ready(function() {
     default:
       $(selector.replace('PATHNAME','/')).addClass('active');
   }
+
+  $('[data-toggle="popover"]').popover({
+    html: true
+  })
 })
