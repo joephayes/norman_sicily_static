@@ -30,7 +30,7 @@
      [:div {:class="col-12-xs"}
       [:div {:class "footer-links"}
        [:p
-        "&copy; 2015 - 2017 by Dawn Marie Hayes and Joseph Hayes. All Rights Reserved."
+        "&copy; 2015 - 2018 by Dawn Marie Hayes and Joseph Hayes. All Rights Reserved."
 
         [:div {:id "license"}
          [:a {:rel "license" :href "http://creativecommons.org/licenses/by-nc-sa/4.0/"} [:img {:alt "Creative Commons License" :style "border-width:0;padding-bottom:10px" :src "https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"}]] [:br ] "This " [:span {:xmlns:dct "http://purl.org/dc/terms/" :href "http://purl.org/dc/dcmitype/StillImage" :rel "dct:type"} "work"] " by " [:a {:xmlns:cc "http://creativecommons.org/ns#" :href "normansicily.org" :property "cc:attributionName" :rel "cc:attributionURL"} "Dawn Marie Hayes, Ph.D. and Joseph Hayes "] "is licensed under a" [:a {:rel "license" :href "http://creativecommons.org/licenses/by-nc-sa/4.0/"} "  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"]]]]]]]])
