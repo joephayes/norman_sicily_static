@@ -35,7 +35,7 @@
     (assets/load-assets "public" ["/scripts/app.js" "/scripts/bootstrap.min.js" "/scripts/tether.min.js"])
     (assets/load-bundle "public" "app.css" ["/styles/app.less"])
     (assets/load-assets "public" [#"/svg/.*"])
-    (assets/load-assets "public" ["/favicon.ico" "/robots.txt"])))
+    (assets/load-assets "public" ["/favicon.ico" "/robots.txt" "/sitemap.xml"])))
 
 (defn layout-page [request page]
   (html5
