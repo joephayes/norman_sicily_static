@@ -9,7 +9,8 @@
                  [hiccup "1.0.5"]
                  [enlive "1.1.6"]
                  [optimus "0.20.1"]
-                 [optimus-less "0.2.1"]]
+                 [optimus-less "0.2.1"]
+                 [cheshire "5.8.0"]]
   :plugins [[lein-ftp-static-deploy "0.1.0"]]
   :ring {:handler norman-sicily-static.web/app}
   :aliases {"build-site" ["run" "-m" "norman-sicily-static.web/export"]

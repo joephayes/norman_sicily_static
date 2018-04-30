@@ -1,4 +1,5 @@
-(ns norman-sicily-static.partials)
+(ns norman-sicily-static.partials
+  (:require [cheshire.core :as json]))
 
 (defn render-navbar
   []
@@ -14,6 +15,39 @@
      [:a {:href "/people/" :class "btn btn-default navbar-btn image-button people-button navbar-right"} [:div {:class "overlay-text" :data-hover"People"}]]
      [:a {:href "/" :class"btn btn-default navbar-btn image-button home-button navbar-right"} [:div { :class "overlay-text" :data-hover "Home"}]]
      [:a {:href "/" :class "navbar-left"} [:img {:class "logo" :src "/images/title_bar.png"}]]]]])
+
+(defn render-site-data
+  []
+  [:script {:type "application/ld+json"}
+   (json/generate-string
+     {"@context" "http://schema.org"
+      "@type" "WebSite"
+      :url "http://www.normansicily.org/"
+      :name "The Norman Sicily Project"
+      :description
+      "The Norman Sicily Project is an effort to document the cultural heritage of Sicily from c. 1061 - 1194."
+      :author [{"@type" "Person"
+                :name "Dawn Marie Hayes"
+                :honorificSuffix "Ph.D."
+                :email "mailto:dawn.hayes@montclair.edu"
+                :jobTitle "Associate Professor of Medieval History"
+                :url "http://www.thehayesweb.org/dhayes/"
+                :sameAs ["https://worldcat.org/identities/lccn-n2002112933/",
+                         "https://montclair.academia.edu/DawnMarieHayes",
+                         "https://www.linkedin.com/in/dawn-marie-hayes-49b05414/",
+                         "http://viaf.org/viaf/76568635",
+                         "https://www.researchgate.net/profile/Dawn_Hayes3",
+                         "https://www.montclair.edu/profilepages/view_profile.php?username=hayesd" ]}
+               {"@type" "Person"
+                :name "Joseph Hayes"
+                :email "mailto:joephayes@gmail.com"
+                :url "https://www.linkedin.com/in/joephayes/"
+                :sameAs ["https://github.com/joephayes"]}]
+      :sameAs ["https://www.facebook.com/TheNormanSicilyProject/"
+               "https://twitter.com/Norman_Sicily"
+               "https://www.instagram.com/thenormansicilyproject/"
+               "https://github.com/the-norman-sicily-project"]
+      :license "http://creativecommons.org/licenses/by-nc-sa/4.0/"})])
 
 (defn render-footer
   []
