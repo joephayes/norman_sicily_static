@@ -46,7 +46,8 @@
       :sameAs ["https://www.facebook.com/TheNormanSicilyProject/"
                "https://twitter.com/Norman_Sicily"
                "https://www.instagram.com/thenormansicilyproject/"
-               "https://github.com/the-norman-sicily-project"]
+               "https://github.com/the-norman-sicily-project"
+               "http://www.worldcat.org/oclc/1003325014"]
       :license "http://creativecommons.org/licenses/by-nc-sa/4.0/"})])
 
 (defn render-footer
