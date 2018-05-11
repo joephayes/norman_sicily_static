@@ -12,4 +12,6 @@
            readable formats so that users can conduct their own analyses, the
            vocabularies of metadata and a form through which users can submit
            feedback as well as additional information about existing sites that
-           the collaborators will corroborate in advance of inclusion."]]]]]])
+           the collaborators will corroborate in advance of inclusion."]
+       [:p "The project's " 
+        [:a {:href "https://youtu.be/YGKlwjaH-cw"} "backstory."]]]]]]])
