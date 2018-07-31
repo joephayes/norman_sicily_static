@@ -32,6 +32,7 @@
   (concat
     (assets/load-assets "public" [#"/icons/.*"])
     (assets/load-assets "public" [#"/images/.*"])
+    (assets/load-assets "public" [#"/data/.*"])
     (assets/load-assets "public" ["/scripts/app.js" "/scripts/bootstrap.min.js" "/scripts/tether.min.js"])
     (assets/load-bundle "public" "app.css" ["/styles/app.less"])
     (assets/load-assets "public" [#"/svg/.*"])
