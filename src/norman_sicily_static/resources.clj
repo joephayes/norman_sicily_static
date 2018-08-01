@@ -26,14 +26,14 @@
        [:div {:class "credits-header"} "Datasets"]
        [:p "Currently, the dataset includes Norman monasteries in Sicily.
            It is available in various formats, including "
-        [:a {:href "http://www.normansicily.org/data/places-20180727.csv"} "CSV"] ", "
-        [:a {:href "http://www.normansicily.org/data/places-20180727.geojson"} "GeoJSON"] ", "
-        [:a {:href "http://www.normansicily.org/data/places-20180727.jsonld"} "JSON-LD"] ", "
-        [:a {:href "http://www.normansicily.org/data/places-riot-20180727.n3"} "N3"] ", "
-        [:a {:href "http://www.normansicily.org/data/places-riot-20180727.rdfxml"} "RDF/XML"] " and "
-        [:a {:href "http://www.normansicily.org/data/places-riot-20180727.ttl"} "TTL"]
+        [:a {:href "/data/places-20180727.csv"} "CSV"] ", "
+        [:a {:href "/data/places-20180727.geojson"} "GeoJSON"] ", "
+        [:a {:href "/data/places-20180727.jsonld"} "JSON-LD"] ", "
+        [:a {:href "/data/places-riot-20180727.n3"} "N3"] ", "
+        [:a {:href "/data/places-riot-20180727.rdfxml"} "RDF/XML"] " and "
+        [:a {:href "/data/places-riot-20180727.ttl"} "TTL"]
         ". For the CSV and GeoJSON formats, there is a "
-        [:a {:href "http://www.normansicily.org/data/places_column_dictionary_20180727.csv"} "data dictionary"]
+        [:a {:href "/data/places_column_dictionary_20180727.csv"} "data dictionary"]
         " to describe the columns."]
        [:p "All of the datasets are LOD three star compliant "
         [:a {:href "https://5stardata.info/en/"}
