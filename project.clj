@@ -12,7 +12,8 @@
                  [optimus-less "0.2.1"]
                  [cheshire "5.8.0"]]
   :plugins [[lein-ftp-static-deploy "0.1.0"]]
-  :ring {:handler norman-sicily-static.web/app}
+  :ring {:handler norman-sicily-static.web/app
+         :auto-refresh? true}
   :aliases {"build-site" ["run" "-m" "norman-sicily-static.web/export"]
             "autotest" ["with-profile" "test" "midje" ":autotest"]
             "serve" ["ring" "server"]}
