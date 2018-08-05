@@ -2232,6 +2232,62 @@
     }
   }, {
     "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "nsp:maxEarliestAttestation" : "1101",
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Mary of Ambuto",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Santa Maria di Ambuto",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : "http://vocab.getty.edu/aat/300000642",
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Basilian",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : "before 1101",
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : "Abbey",
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Abbey of Saint Mary de Scalis"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : null,
+        "nsp:hasName" : [ ],
+        "nsp:isIn" : null,
+        "rdfs:seeAlso" : null,
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : null,
+        "nsp:wasIn" : null,
+        "nsp:isNear" : null,
+        "nsp:locationCategory" : null,
+        "type" : "nsp:Location",
+        "geo:alt" : null
+      },
+      "nsp:dedication" : "the Virgin Mary",
+      "nsp:hasFounder" : [ {
+        "type" : "nsp:Founder",
+        "rdfs:label" : "Roger I",
+        "foaf:gender" : "Male",
+        "schema:honorificPrefix" : "Count"
+      } ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
     "geometry" : {
       "type" : "Point",
       "coordinates" : [ 12.612731, 37.651731 ]
@@ -3209,6 +3265,59 @@
         "foaf:gender" : "Male",
         "schema:honorificPrefix" : "Admiral"
       } ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 15.5210473, 38.1908266 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Christ the Savior in Messina",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Santissimo Salvatore di Messina",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Female",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : "http://vocab.getty.edu/aat/300000642",
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/7QPHAVE8", "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Basilian",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : "Abbey",
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 168", "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Massîni",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Messina",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "nsp:sesimicClassId" : 1,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val Demone",
+        "nsp:isNear" : "Messina",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Christ",
+      "nsp:hasFounder" : [ ],
       "nsp:attestationTypes" : "documentary"
     }
   }, {
@@ -4649,54 +4758,46 @@
     }
   }, {
     "type" : "Feature",
-    "geometry" : {
-      "type" : "Point",
-      "coordinates" : [ 15.5210473, 38.1908266 ]
-    },
+    "geometry" : null,
     "properties" : {
-      "nsp:maxEarliestAttestation" : null,
+      "nsp:maxEarliestAttestation" : "1080",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Christ the Savior in Messina",
+        "rdfs:label" : "Saint Nicholas of Butana",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "Santissimo Salvatore di Messina",
+        "rdfs:label" : "San Nicola Butana",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
       } ],
-      "foaf:gender" : "Female",
+      "foaf:gender" : "Male",
       "rdfs:seeAlso" : null,
       "nsp:placeCategory" : "http://vocab.getty.edu/aat/300000642",
-      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/7QPHAVE8", "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
       "nsp:recordStatus" : "draft",
       "nsp:order" : "Basilian",
       "dbo:notes" : null,
-      "nsp:earliestAttestation" : null,
-      "nsp:minEarliestAttestation" : null,
+      "nsp:earliestAttestation" : "1080",
+      "nsp:minEarliestAttestation" : "1080",
       "nsp:rankAtFoundation" : "Abbey",
       "type" : "nsp:Monastery",
-      "dcterms:bibliographicCitation" : [ "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 168", "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43" ],
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42" ],
       "nsp:hasLocation" : {
-        "nsp:archaeologicalRemains" : "unknown",
-        "nsp:hasName" : [ {
-          "rdfs:label" : "Massîni",
-          "dcterms:language" : "unknown",
-          "nsp:isPreferred" : false,
-          "type" : "nsp:Name"
-        } ],
-        "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
-        "nsp:sesimicClassId" : 1,
-        "nsp:positionalAccuracyAssessment" : "unknown",
-        "nsp:wasIn" : "Val Demone",
-        "nsp:isNear" : "Messina",
-        "nsp:locationCategory" : "associated_modern",
+        "nsp:archaeologicalRemains" : null,
+        "nsp:hasName" : [ ],
+        "nsp:isIn" : null,
+        "rdfs:seeAlso" : null,
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : null,
+        "nsp:wasIn" : null,
+        "nsp:isNear" : null,
+        "nsp:locationCategory" : null,
         "type" : "nsp:Location",
-        "geo:alt" : 0.0
+        "geo:alt" : null
       },
-      "nsp:dedication" : "Christ",
+      "nsp:dedication" : "Saint Nicholas",
       "nsp:hasFounder" : [ ],
       "nsp:attestationTypes" : "documentary"
     }
@@ -5286,6 +5387,62 @@
     }
   }, {
     "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "nsp:maxEarliestAttestation" : "1156",
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Nicholas de Arena",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Nicolò l'Arena",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : "http://vocab.getty.edu/page/aat/300045490",
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Benedictine",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : "1156",
+      "nsp:minEarliestAttestation" : "1156",
+      "nsp:rankAtFoundation" : "Grange",
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Abbey of Saint Agatha of Catania"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 117-120" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : null,
+        "nsp:hasName" : [ ],
+        "nsp:isIn" : null,
+        "rdfs:seeAlso" : null,
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : null,
+        "nsp:wasIn" : null,
+        "nsp:isNear" : null,
+        "nsp:locationCategory" : null,
+        "type" : "nsp:Location",
+        "geo:alt" : null
+      },
+      "nsp:dedication" : "Saint Nicholas",
+      "nsp:hasFounder" : [ {
+        "type" : "nsp:Founder",
+        "rdfs:label" : "Simon",
+        "foaf:gender" : "Male",
+        "schema:honorificPrefix" : "Count of Butera and Policastro"
+      } ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
     "geometry" : {
       "type" : "Point",
       "coordinates" : [ 14.8580471, 37.6484169 ]
@@ -5341,6 +5498,64 @@
       },
       "nsp:dedication" : "the Virgin Mary",
       "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 14.83369, 37.662844 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : "1158",
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Lucy of Adernò",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Santa Lucia di Adernò",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Female",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : "http://vocab.getty.edu/aat/300000642",
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Benedictine",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : "1158",
+      "nsp:minEarliestAttestation" : "1158",
+      "nsp:rankAtFoundation" : "Abbey",
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 157-158" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Adernò",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Catania",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.662_14.835.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "google_earth",
+        "nsp:wasIn" : "Val Demone",
+        "nsp:isNear" : "Adrano",
+        "nsp:locationCategory" : "representative",
+        "type" : "nsp:Location",
+        "geo:alt" : 558.0
+      },
+      "nsp:dedication" : "Saint Lucy",
+      "nsp:hasFounder" : [ {
+        "type" : "nsp:Founder",
+        "rdfs:label" : "Adelasia (Granddaughter of Count Roger I)",
+        "foaf:gender" : "Female",
+        "schema:honorificPrefix" : "Countess"
+      } ],
       "nsp:attestationTypes" : "documentary"
     }
   }, {
@@ -6096,64 +6311,6 @@
     "type" : "Feature",
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ 14.83369, 37.662844 ]
-    },
-    "properties" : {
-      "nsp:maxEarliestAttestation" : "1158",
-      "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Lucy of Adernò",
-        "dcterms:language" : "en",
-        "nsp:isPreferred" : true,
-        "type" : "nsp:Name"
-      }, {
-        "rdfs:label" : "Santa Lucia di Adernò",
-        "dcterms:language" : "it",
-        "nsp:isPreferred" : false,
-        "type" : "nsp:Name"
-      } ],
-      "foaf:gender" : "Female",
-      "rdfs:seeAlso" : null,
-      "nsp:placeCategory" : "http://vocab.getty.edu/aat/300000642",
-      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
-      "nsp:recordStatus" : "draft",
-      "nsp:order" : "Benedictine",
-      "dbo:notes" : null,
-      "nsp:earliestAttestation" : "1158",
-      "nsp:minEarliestAttestation" : "1158",
-      "nsp:rankAtFoundation" : "Abbey",
-      "type" : "nsp:Monastery",
-      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 157-158" ],
-      "nsp:hasLocation" : {
-        "nsp:archaeologicalRemains" : "unknown",
-        "nsp:hasName" : [ {
-          "rdfs:label" : "Adernò",
-          "dcterms:language" : "unknown",
-          "nsp:isPreferred" : false,
-          "type" : "nsp:Name"
-        } ],
-        "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.662_14.835.html" ],
-        "nsp:sesimicClassId" : 2,
-        "nsp:positionalAccuracyAssessment" : "google_earth",
-        "nsp:wasIn" : "Val Demone",
-        "nsp:isNear" : "Adrano",
-        "nsp:locationCategory" : "representative",
-        "type" : "nsp:Location",
-        "geo:alt" : 558.0
-      },
-      "nsp:dedication" : "Saint Lucy",
-      "nsp:hasFounder" : [ {
-        "type" : "nsp:Founder",
-        "rdfs:label" : "Adelasia (Granddaughter of Count Roger I)",
-        "foaf:gender" : "Female",
-        "schema:honorificPrefix" : "Countess"
-      } ],
-      "nsp:attestationTypes" : "documentary"
-    }
-  }, {
-    "type" : "Feature",
-    "geometry" : {
-      "type" : "Point",
       "coordinates" : [ 13.2995746, 37.8135067 ]
     },
     "properties" : {
@@ -6883,6 +7040,85 @@
     "type" : "Feature",
     "geometry" : {
       "type" : "Point",
+      "coordinates" : [ 13.855695, 37.82149 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Peter of Sclafani",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Pietro di Sclafani",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Isqlafiah",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Schafa",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Sclafa",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Cluse",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Chiuse",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Palermo",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.822_13.855.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val di Mazara",
+        "nsp:isNear" : "Sclafani Bagni",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint Peter",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
       "coordinates" : [ 15.104299, 37.999851 ]
     },
     "properties" : {
@@ -7098,6 +7334,893 @@
         "foaf:gender" : "Male",
         "schema:honorificPrefix" : "Count"
       } ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 13.3569992, 38.117699 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : "1116",
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Peter in Palermo",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Pietro di Palermo",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : "1116",
+      "nsp:minEarliestAttestation" : "1116",
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 186" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Bn.rm",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Balarm",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Balarmuh",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Bân.rm",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Panormus",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Palermo",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val di Mazara",
+        "nsp:isNear" : "Palermo",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint Peter",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 13.116553, 38.045107 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint James in Partinico",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Giacomo di Partinico",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 186" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "B.rt.niq",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Bartinîq",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Battinîq",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Partenich",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Castrum Sale Parthenici",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Palermo",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.044_13.12.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val di Mazara",
+        "nsp:isNear" : "Partinico",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint James",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 13.6017081, 37.679698 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Stephan of Castronuovo",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Santo Stefano di Castronuovo",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : "Luigi Santagati, _Viabilità e topografia della Sicilia antica_, vol. 2 (Caltanissetta, 2013), 76 (s.v. \"Castronovo\"), equates the location with Castronovo di Sicilia.",
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Qaṣr Nubut",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Qasr-Nubu",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Castrum Castrinovi",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Qasr al-Gadid",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Qasr al Jadid",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Castrum Novum",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Palermo?",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.679_13.603.html" ],
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val di Mazara?",
+        "nsp:isNear" : "Castronovo di Sicilia?",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint Steven",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 13.602676, 37.678159 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Mary of Castronovo",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Santa Maria di Castronovo",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : "Luigi Santagati, _Viabilità e topografia della Sicilia antica_, vol. 2 (Caltanissetta, 2013), 76 (s.v. \"Castronovo\"), suggests Castronovo di Sicilia.",
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 186" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Qaṣr Nubut",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Qasr-Nubu",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Castrum Castrinovi",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Qasr al-Gadid",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Qasr al Jadid",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Castrum Novum",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Palermo?",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.679_13.603.html" ],
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val di Mazara?",
+        "nsp:isNear" : "Castronovo di Sicilia?",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "the Virgin Mary",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 15.5210473, 38.1908266 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Matthew of Messina",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Matteo di Messina",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Massîni",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Messina",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "nsp:sesimicClassId" : 1,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val Demone",
+        "nsp:isNear" : "Messina",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint Matthew",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 15.2333918, 37.8230309 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Eunufrius of Calatabiano",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Sant'Eunufrio di Calatabiano",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Eunufrius",
+        "dcterms:language" : "unknown",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Honufrius",
+        "dcterms:language" : "unknown",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Onufrius",
+        "dcterms:language" : "unknown",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : "White, Latin Monasticism (p. 187, n.2), asks whether this could be the same house as Saint Onufrius of Calatabiet.",
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Qal'at al-Bian",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Qal'at al-Bayan",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Calatabien",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Castrum Calatabiani",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Catania",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.821_15.228.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val Demone",
+        "nsp:isNear" : "Calatabiano",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint Onufrius",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 14.996815, 37.288121 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint George of Lentini",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Giorgio di Lentini",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Lentina",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Leontini",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Wâdî Lentini",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Palude Salata",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Syracuse",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.285_15.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val di Noto",
+        "nsp:isNear" : "Lentini",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint George",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 15.068268, 36.889968 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Lucy of Rahalbiato",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Santa Lucia di Rahalbiato",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Larbiato",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Notus",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Notosc",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Nutus",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Nota",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Ralbiceo",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Rahalbiati",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Ralbiatum",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Syracuse",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_36.89_15.069.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val di Noto",
+        "nsp:isNear" : "Noto",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint Lucy",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint George of Hares",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Giorgio di Hares",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Priory of Saint Mary and the Twelve Apostles at Bagnara, Calab"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : null,
+        "nsp:hasName" : [ ],
+        "nsp:isIn" : null,
+        "rdfs:seeAlso" : null,
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : null,
+        "nsp:wasIn" : null,
+        "nsp:isNear" : null,
+        "nsp:locationCategory" : null,
+        "type" : "nsp:Location",
+        "geo:alt" : null
+      },
+      "nsp:dedication" : "Saint George",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 13.2995746, 37.8135067 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Nicholas of Corleone",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Nicola di Corleone",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Qorliûn",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Coiroillionis",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Corilionis",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Coniglione",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Palermo",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.299.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val di Mazara",
+        "nsp:isNear" : "Corleone",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint Nicholas",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 15.2433448, 38.2183065 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Peter of Milazzo",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Pietro di Milazzo",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Milâs",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Milatium",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Castrum Melacii",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Messina",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.221_15.238.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val Demone",
+        "nsp:isNear" : "Milazzo",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint Peter",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Cataldo",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Cataldo",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Saint Mary and the Twelve Apostles at Bagnara, Calabria"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : null,
+        "nsp:hasName" : [ ],
+        "nsp:isIn" : null,
+        "rdfs:seeAlso" : null,
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : null,
+        "nsp:wasIn" : null,
+        "nsp:isNear" : null,
+        "nsp:locationCategory" : null,
+        "type" : "nsp:Location",
+        "geo:alt" : null
+      },
+      "nsp:dedication" : "Saint Cataldo",
+      "nsp:hasFounder" : [ ],
       "nsp:attestationTypes" : "documentary"
     }
   }, {
@@ -8172,6 +9295,190 @@
     }
   }, {
     "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Mary de Baratathe",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Santa Maria di Baratathe",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Abbey of Our Lady of Mount Sion, Jerusalem"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 232" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : null,
+        "nsp:hasName" : [ ],
+        "nsp:isIn" : null,
+        "rdfs:seeAlso" : null,
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : null,
+        "nsp:wasIn" : null,
+        "nsp:isNear" : null,
+        "nsp:locationCategory" : null,
+        "type" : "nsp:Location",
+        "geo:alt" : null
+      },
+      "nsp:dedication" : "the Virgin Mary",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 15.5210473, 38.1908266 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Mary of Mount Sion",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Santa Maria di Monte Sion",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Abbey of Our Lady of Mount Sion, Jerusalem"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 231-233" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Massîni",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Messina",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "nsp:sesimicClassId" : 1,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val Demone",
+        "nsp:isNear" : "Messina",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "the Virgin Mary",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 14.469397, 37.474889 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Anne of Fesime",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Sant'Anna di Fesime",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Augustinian Canons",
+      "dbo:notes" : "Luigi Santagati, _Viabilità e topografia della Sicilia antica_, vol. 2 (Caltanissetta, 2013), 88 (s.v. \"Fessina\"), places this near Aidone, near Pietratagliata in Contrada San Bartolo.",
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Our Lady of Mount Sion, Jerusalem"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 232" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Fessina",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Fessima",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Fesine",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Felsinae",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Enna?",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.415_14.445.html" ],
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val di Noto?",
+        "nsp:isNear" : "Aidone?",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint Anne",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
     "geometry" : {
       "type" : "Point",
       "coordinates" : [ 14.8422705, 37.2935824 ]
@@ -8374,6 +9681,170 @@
         "geo:alt" : 0.0
       },
       "nsp:dedication" : "All Saints",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Catherine",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Santa Caterina",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : "Male",
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : "http://vocab.getty.edu/page/aat/300312214",
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Hospital of Saint Lazarus at Jerusalem",
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : "Hospital",
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Order of the Knights Templar"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 239-240" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : null,
+        "nsp:hasName" : [ ],
+        "nsp:isIn" : null,
+        "rdfs:seeAlso" : null,
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : null,
+        "nsp:wasIn" : null,
+        "nsp:isNear" : null,
+        "nsp:locationCategory" : null,
+        "type" : "nsp:Location",
+        "geo:alt" : null
+      },
+      "nsp:dedication" : "Saint Catherine",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 15.039317, 37.260433 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Mary of Roccadia",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Santa Maria di Roccadia",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : null,
+      "rdfs:seeAlso" : [ "http://www.medioevosicilia.eu/markIII/santa-maria-di-roccadia-presso-lentini/" ],
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : "Cistercian",
+      "dbo:notes" : "Tried to visit on July 15, 2016. The monastery is behind a padlocked gate that can't be breached. No house in the immediate area. If we return, we will need to wait until someone appears. Not sure how to access this. Perhaps go to the nearby agriturismo and ask if they can put us in touch with someone.",
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 182, n.2" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Lentina",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Leontini",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Wâdî Lentini",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Palude Salata",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Syracuse",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.285_15.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val di Noto",
+        "nsp:isNear" : "Lentini",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : null,
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary, archaeological?"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "nsp:maxEarliestAttestation" : "1080",
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Michael of the Val Demone",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Sant'Angelo di Val Demone",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : null,
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : null,
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : "1080",
+      "nsp:minEarliestAttestation" : "1080",
+      "nsp:rankAtFoundation" : null,
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 191 n. 1" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : null,
+        "nsp:hasName" : [ ],
+        "nsp:isIn" : null,
+        "rdfs:seeAlso" : null,
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : null,
+        "nsp:wasIn" : null,
+        "nsp:isNear" : null,
+        "nsp:locationCategory" : null,
+        "type" : "nsp:Location",
+        "geo:alt" : null
+      },
+      "nsp:dedication" : "Saint Michael the Archangel",
       "nsp:hasFounder" : [ ],
       "nsp:attestationTypes" : "documentary"
     }
@@ -8611,6 +10082,204 @@
       "nsp:dedication" : "the Virgin Mary",
       "nsp:hasFounder" : [ ],
       "nsp:attestationTypes" : "documentary, archaeological"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 14.5073319, 37.8094542 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : "1143",
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Christ the Savior",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "Santissimo Salvatore di Cerami",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : null,
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : null,
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : "1143",
+      "nsp:minEarliestAttestation" : "1143",
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Abbey of Saint Mary of Licodia"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 122" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Cirama",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Garâmi",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Ceramin",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Chirami",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Terami",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Chinami",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Enna",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.811_14.507.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val Demone",
+        "nsp:isNear" : "Cerami",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Christ",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "nsp:maxEarliestAttestation" : null,
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Nicholas of the Val Demone",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Nicola di Val Demone",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : null,
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : null,
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : null,
+      "nsp:minEarliestAttestation" : null,
+      "nsp:rankAtFoundation" : null,
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 191 n. 1" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : null,
+        "nsp:hasName" : [ ],
+        "nsp:isIn" : null,
+        "rdfs:seeAlso" : null,
+        "nsp:sesimicClassId" : null,
+        "nsp:positionalAccuracyAssessment" : null,
+        "nsp:wasIn" : null,
+        "nsp:isNear" : null,
+        "nsp:locationCategory" : null,
+        "type" : "nsp:Location",
+        "geo:alt" : null
+      },
+      "nsp:dedication" : "Saint Nicholas",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 14.8946012, 37.5680045 ]
+    },
+    "properties" : {
+      "nsp:maxEarliestAttestation" : "1143",
+      "nsp:hasName" : [ {
+        "rdfs:label" : "Saint Philip of Pantano",
+        "dcterms:language" : "en",
+        "nsp:isPreferred" : true,
+        "type" : "nsp:Name"
+      }, {
+        "rdfs:label" : "San Filippo di Pantano",
+        "dcterms:language" : "it",
+        "nsp:isPreferred" : false,
+        "type" : "nsp:Name"
+      } ],
+      "foaf:gender" : null,
+      "rdfs:seeAlso" : null,
+      "nsp:placeCategory" : null,
+      "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
+      "nsp:recordStatus" : "draft",
+      "nsp:order" : null,
+      "dbo:notes" : null,
+      "nsp:earliestAttestation" : "1143",
+      "nsp:minEarliestAttestation" : "1143",
+      "nsp:rankAtFoundation" : null,
+      "nsp:hasParent" : {
+        "type" : "nsp:Monastery",
+        "nsp:hasName" : {
+          "rdfs:label" : "Abbey of Saint Mary of Licodia"
+        }
+      },
+      "type" : "nsp:Monastery",
+      "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 121-122" ],
+      "nsp:hasLocation" : {
+        "nsp:archaeologicalRemains" : "unknown",
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Bâtarnû",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Paternio",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
+          "rdfs:label" : "Castrum Paternionis",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
+        "nsp:isIn" : "Catania",
+        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.571_14.903.html" ],
+        "nsp:sesimicClassId" : 2,
+        "nsp:positionalAccuracyAssessment" : "unknown",
+        "nsp:wasIn" : "Val Demone",
+        "nsp:isNear" : "Paternò",
+        "nsp:locationCategory" : "associated_modern",
+        "type" : "nsp:Location",
+        "geo:alt" : 0.0
+      },
+      "nsp:dedication" : "Saint Philip",
+      "nsp:hasFounder" : [ ],
+      "nsp:attestationTypes" : "documentary"
     }
   } ]
 }
