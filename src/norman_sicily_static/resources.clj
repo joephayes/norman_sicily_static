@@ -1,4 +1,5 @@
-(ns norman-sicily-static.resources)
+(ns norman-sicily-static.resources
+  (:require [cheshire.core :as json]))
 
 (defn render-page
   []
@@ -24,8 +25,46 @@
         [:a {:href "https://github.com/the-norman-sicily-project/vocabulary"}
          "Github."]]
        [:div {:class "credits-header"} "Datasets"]
-       [:p "Currently, the dataset includes Norman monasteries in Sicily.
-           It is available in various formats, including "
+       [:script {:type "application/ld+json"}
+        (json/generate-string
+          {"@context" "http://schema.org"
+           "@type" "Dataset"
+           :name "The Norman Sicily Project Place data"
+           :description "Data about places collected by The Norman Sicily Project"
+           :creator {"@type" "Organization"
+                     :name "The Norman Sicily Project"
+                     :url "http://www.normansicily.org/"}
+           :datePublished "2018-07-27"
+           :dateModified "2018-08-05"
+           :url "http://www.normansicily.org/data/"
+           :sameAs "https://github.com/the-norman-sicily-project/data-dumps/tree/master/2018-08-05"
+           :distribution [{"@type" "DataDownload"
+                           :encodingFormat "text/csv"
+                           :contentUrl "http://www.normansicily.org/data/places-20180805.csv"}
+                          {"@type" "DataDownload"
+                           :encodingFormat "application/geo+json"
+                           :contentUrl "http://www.normansicily.org/data/places-20180805.geojson"}
+                          {"@type" "DataDownload"
+                           :encodingFormat "application/ld+json"
+                           :contentUrl "http://www.normansicily.org/data/places-20180805.jsonld"}
+                          {"@type" "DataDownload"
+                           :encodingFormat "text/n3"
+                           :contentUrl "http://www.normansicily.org/data/places-riot-20180805.n3"}
+                          {"@type" "DataDownload"
+                           :encodingFormat "application/rdf+xml"
+                           :contentUrl "http://www.normansicily.org/data/places-riot-20180805.rdfxml"}
+                          {"@type" "DataDownload"
+                           :encodingFormat "text/turtle"
+                           :contentUrl "http://www.normansicily.org/data/places-riot-20180805.ttl"}]
+           :license "http://creativecommons.org/licenses/by-sa/4.0/"
+           :temporalCoverage "1060/1194"
+           :spatialCoverage {"@type" "Place"
+                             :name "Sicily"
+                             :containedIn {"@type" "Place"
+                                           :name "Italy"}}})]
+       [:p "Currently, the dataset includes Norman monasteries in Sicily from
+           the period beginning 1060 until 1194. It is available in various
+           formats, including "
         [:a {:href "/data/places-20180805.csv"} "CSV"] ", "
         [:a {:href "/data/places-20180805.geojson"} "GeoJSON"] ", "
         [:a {:href "/data/places-20180805.jsonld"} "JSON-LD"] ", "
