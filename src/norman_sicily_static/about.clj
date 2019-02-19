@@ -24,5 +24,20 @@
      [:div {:class "inner"}
       [:div {:class "text-center"}
        [:div {:class "credits-header"} "Credits"]
-       [:p "Thank you to Mel Colella, whose fine film editing skills greatly improved the opening video."]
-       [:p "A special credit is extended to the many Sicilians who have provided access to so many of these sites. We hope that this project is a small reward for their kindness."]]]]]])
+       [:p "A number of " [:a {:href "http://www.montclair.edu/"} "Montclair State University"]
+        " students have been playing critical roles in the development of this site as
+        it gets off the ground. Ryan Marshall (" [:a {:href "https://www.montclair.edu/csam/"} "CSAM"]
+        ", 2019) helped develop the interactive map that enables the site's users to engage the data.
+        Isamar Cortes (" [:a {:href "https://www.montclair.edu/csam/"} "CSAM"]
+        ", 2019) was also instrumental; her experience with various GIS packages
+        to create elevations and maps that allow for the visualization of data
+        in their geographical contexts has been invaluable. Another important member
+        of our team, Jamila Haramuniz (" [:a {:href "https://www.montclair.edu/csam/"} "CSAM"]
+        ", 2020), has kindly been loaning her prodigious statistical skills as well
+        as her knowledge of R to the project, making it possible to consider the
+        data in new ways. In addition, Matthew Parlapiano (" [:a {:href "https://www.montclair.edu/cehs/"} "CEHS"]
+        ", 2019) did a fine job of extracting data from Alexander of Telese's " [:em "History"] ",
+        performing the tedious work of preparing the text for machine processing. We are enormously grateful to each of them."]
+       [:p "We are also grateful to Mel Colella, whose fine editing skills greatly improved the opening video."]
+       [:p "In addition, an enormous debt of gratitude is owed to the countless Sicilians who, in numerous ways,
+           have helped make this project possible. We hope that this effort is a small repayment for their unfailing kindness and generosity."]]]]]])
