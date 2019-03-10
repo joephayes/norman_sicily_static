@@ -11,9 +11,14 @@
        [:p "One of the most innovative aspects of this site is its focus on sustainability. In addition to treating these monuments as testaments to a vibrant past, this project also approaches them as living organisms - survivors of centuries of climactic trials and tribulations - which are in desperate need of physical examination. An ongoing collaboration with "
         [:a {:href "http://www.montclair.edu/profilepages/view_profile.php?username=popeg"} "Dr. Greg Pope"]" of MSU&#39;s "
         [:a {:href "https://www.montclair.edu/csam/earth-environment-studies/"} "Department of Earth and Environmental Studies"]" is enabling us to assess the integrity of some of these monuments and to share this information in the sites&#39; records. By doing this, The Norman Sicily Project is providing critical context as we consider not just what the monuments reveal about the past, but also what we might expect for their future survival."]
-       [:p "We are grateful for the financial support this project has received from the Angelo and Mary Cali Fund for Italian Studies, an award administered by the Dean of the "
+       [:p "We are grateful for the financial support this project has received from the Angelo and Mary Cali Fund for Italian Studies,
+           an award administered by the Dean of the "
         [:a {:href "http://www.montclair.edu/chss/"} "College of Humanities and Social Sciences"]", "
-        [:a {:href "http://www.montclair.edu/"} "Montclair State University (MSU)"]", from the Dean&#39;s Office itself as well as from MSU&#39;s "
+        [:a {:href "http://www.montclair.edu/"} "Montclair State University (MSU)"]", from the "
+        [:a {:href "https://www.montclair.edu/chss/about-the-college/deans-office/"} "CHSS Dean&#39;s Office"]
+        " itself, from the Herman and Margaret Sokol Faculty/Student Research Grant Program that is administered by MSU&#39;s "
+        [:a {:href "https://www.montclair.edu/csam/"} "College of Science and Mathematics"]
+        " (CSAM) as well as from MSU&#39;s "
         [:a {:href "https://www.montclair.edu/csam/pseg-sustainability-institute/"} "PSEG Institute for Sustainability Studies"]"."]
        [:p "More information about Dr. Hayes&#39; research on medieval Sicily is available on her "
         [:a {:href "http://www.thehayesweb.org/dhayes"} "website"]". Information about Joe Hayes, the project&#39;s primary developer, may be found on his "
@@ -36,8 +41,8 @@
         ", 2020), has kindly been loaning her prodigious statistical skills as well
         as her knowledge of R to the project, making it possible to consider the
         data in new ways. In addition, Matthew Parlapiano (" [:a {:href "https://www.montclair.edu/cehs/"} "CEHS"]
-        ", 2019) did a fine job of extracting data from Alexander of Telese's " [:em "History"] ",
-        performing the tedious work of preparing the text for machine processing. We are enormously grateful to each of them."]
+        ", 2019) did a fine job of extracting data from Alexander of Telese's " [:em "History"]
+        ", performing the tedious work of preparing the text for machine processing. We are enormously grateful to each of them."]
        [:p "We are also grateful to Mel Colella, whose fine editing skills greatly improved the opening video."]
        [:p "In addition, an enormous debt of gratitude is owed to the countless Sicilians who, in numerous ways,
            have helped make this project possible. We hope that this effort is a small repayment for their unfailing kindness and generosity."]]]]]])
