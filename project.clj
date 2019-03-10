@@ -18,7 +18,7 @@
             "autotest" ["with-profile" "test" "midje" ":autotest"]
             "serve" ["ring" "server"]}
   :clean-targets [:target-path "dist"]
-  :profiles {:dev {:plugins [[lein-ring "0.12.4"]]}
+  :profiles {:dev {:plugins [[lein-ring "0.12.5"]]}
              :test {:dependencies [[midje "1.9.6"]]
                     :plugins [[lein-midje "3.2.1"]]}}
   :ftp {:host ~(System/getenv "FTP_DEPLOY_HOST")
