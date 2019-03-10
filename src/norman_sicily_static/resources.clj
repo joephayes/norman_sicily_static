@@ -35,27 +35,27 @@
                      :name "The Norman Sicily Project"
                      :url "http://www.normansicily.org/"}
            :datePublished "2018-07-27"
-           :dateModified "2018-08-05"
+           :dateModified "2019-03-10"
            :url "http://www.normansicily.org/data/"
-           :sameAs "https://github.com/the-norman-sicily-project/data-dumps/tree/master/2018-08-05"
+           :sameAs "https://github.com/the-norman-sicily-project/data-dumps/tree/master/2019-03-10"
            :distribution [{"@type" "DataDownload"
                            :encodingFormat "text/csv"
-                           :contentUrl "http://www.normansicily.org/data/places-20180805.csv"}
+                           :contentUrl "http://www.normansicily.org/data/places-20190310.csv"}
                           {"@type" "DataDownload"
                            :encodingFormat "application/geo+json"
-                           :contentUrl "http://www.normansicily.org/data/places-20180805.geojson"}
+                           :contentUrl "http://www.normansicily.org/data/places-20190310.geojson"}
                           {"@type" "DataDownload"
                            :encodingFormat "application/ld+json"
-                           :contentUrl "http://www.normansicily.org/data/places-20180805.jsonld"}
+                           :contentUrl "http://www.normansicily.org/data/places-20190310.jsonld"}
                           {"@type" "DataDownload"
                            :encodingFormat "text/n3"
-                           :contentUrl "http://www.normansicily.org/data/places-riot-20180805.n3"}
+                           :contentUrl "http://www.normansicily.org/data/places-riot-20190310.n3"}
                           {"@type" "DataDownload"
                            :encodingFormat "application/rdf+xml"
-                           :contentUrl "http://www.normansicily.org/data/places-riot-20180805.rdfxml"}
+                           :contentUrl "http://www.normansicily.org/data/places-riot-20190310.rdfxml"}
                           {"@type" "DataDownload"
                            :encodingFormat "text/turtle"
-                           :contentUrl "http://www.normansicily.org/data/places-riot-20180805.ttl"}]
+                           :contentUrl "http://www.normansicily.org/data/places-riot-20190310.ttl"}]
            :license "http://creativecommons.org/licenses/by-sa/4.0/"
            :temporalCoverage "1060/1194"
            :spatialCoverage {"@type" "Place"
@@ -65,14 +65,14 @@
        [:p "Currently, the dataset includes Norman monasteries in Sicily from
            the period beginning 1060 until 1194. It is available in various
            formats, including "
-        [:a {:href "/data/places-20180805.csv"} "CSV"] ", "
-        [:a {:href "/data/places-20180805.geojson"} "GeoJSON"] ", "
-        [:a {:href "/data/places-20180805.jsonld"} "JSON-LD"] ", "
-        [:a {:href "/data/places-riot-20180805.n3"} "N3"] ", "
-        [:a {:href "/data/places-riot-20180805.rdfxml"} "RDF/XML"] " and "
-        [:a {:href "/data/places-riot-20180805.ttl"} "TTL"]
+        [:a {:href "/data/places-20190310.csv"} "CSV"] ", "
+        [:a {:href "/data/places-20190310.geojson"} "GeoJSON"] ", "
+        [:a {:href "/data/places-20190310.jsonld"} "JSON-LD"] ", "
+        [:a {:href "/data/places-riot-20190310.n3"} "N3"] ", "
+        [:a {:href "/data/places-riot-20190310.rdfxml"} "RDF/XML"] " and "
+        [:a {:href "/data/places-riot-20190310.ttl"} "TTL"]
         ". For the CSV and GeoJSON formats, there is a "
-        [:a {:href "/data/places_column_dictionary_20180805.csv"} "data dictionary"]
+        [:a {:href "/data/places_column_dictionary_20190310.csv"} "data dictionary"]
         " to describe the columns."]
        [:p "All of the datasets are LOD three star compliant "
         [:a {:href "https://5stardata.info/en/"}
