@@ -19,8 +19,12 @@ Build a new version of the site:
 
     lein build-site
 
+Deploy the site
+   
+    ./scripts/deploy.sh
+
 ## License
 
-Copyright © 2017 Dawn M. Hayes and Joseph P. Hayes
+Copyright © 2017-2019 Dawn M. Hayes and Joseph P. Hayes
 
 Released under the MIT license.
