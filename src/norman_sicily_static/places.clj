@@ -8,12 +8,5 @@
      [:div {:class "inner"}
       [:div {:class "text-center"}
        [:div {:class "credits-header"} "Places Page"]
-       [:p "This page will be a portal to the sites of Norman Sicily."]
-       [:figure
-        [:p]
-        [:img {:clas "img-responsive centered-responsive-img", :src "/images/map.png", :alt "Map"}]
-        [:figcaption "Map of Sicily Displaying Markers for each Monastic Foundation"]]
-       [:figure
-        [:p]
-        [:img {:clas "img-responsive centered-responsive-img", :src "/images/map_detail.png", :alt "Map"}]
-        [:figcaption "Detail Showing a Monastery&#39;s Informational Popup"]]]]]]])
+       [:iframe {:src "/places/map/"
+                 :style "width:100%;height:100%;min-height:620px;min-width:1000px"}]]]]]])
