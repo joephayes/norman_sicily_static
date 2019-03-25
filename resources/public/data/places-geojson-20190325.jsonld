@@ -42,7 +42,7 @@
     "type" : "Feature",
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ 14.9573575, 38.4667512 ]
+      "coordinates" : [ 14.95728, 38.4668 ]
     },
     "properties" : {
       "nsp:maxEarliestAttestation" : "1088",
@@ -89,7 +89,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.464_14.953.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/10376237/cattedrale-di-san-bartolomeo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val Demone",
@@ -158,7 +158,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.147_14.97.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523864/patti.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -216,17 +216,17 @@
       "nsp:hasLocation" : {
         "nsp:archaeologicalRemains" : "unknown",
         "nsp:hasName" : [ {
+          "rdfs:label" : "Qaqabus",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        }, {
           "rdfs:label" : "Caccabo",
           "dcterms:language" : "unknown",
           "nsp:isPreferred" : false,
           "type" : "nsp:Name"
         }, {
           "rdfs:label" : "K.k.b.sc",
-          "dcterms:language" : "unknown",
-          "nsp:isPreferred" : false,
-          "type" : "nsp:Name"
-        }, {
-          "rdfs:label" : "Qaqabus",
           "dcterms:language" : "unknown",
           "nsp:isPreferred" : false,
           "type" : "nsp:Name"
@@ -242,7 +242,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.933_13.665.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525476/caccamo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -326,7 +326,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Syracuse",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.125_14.85.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525492/buccheri.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -410,7 +410,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.161_14.75.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2522709/vizzini.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -489,7 +489,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.824_13.566.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2522774/vicari.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -568,7 +568,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.984_14.236.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2522839/tusa.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -595,7 +595,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "Santa Maria a Mazzarino",
+        "rdfs:label" : "Santa Maria di Mazzarino",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -642,7 +642,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Caltanissetta",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.304_14.214.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524200/mazzarino.html" ],
         "nsp:sesimicClassId" : 3,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -706,7 +706,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Caltanissetta",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.191_14.184.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525480/butera.html" ],
         "nsp:sesimicClassId" : 3,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -728,7 +728,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1122",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Anastasia in Mistretta",
+        "rdfs:label" : "Saint Anastasia of Mistretta",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -759,7 +759,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.927_14.357.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524122/mistretta.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -837,7 +837,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523920/palermo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -890,7 +890,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -917,7 +917,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1131",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Anne of Monteforte",
+        "rdfs:label" : "Saint Anne of Monforte",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -958,7 +958,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Agrigento?",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.383_13.267.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525557/capo-bianco.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -980,7 +980,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1084",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Michael Archangel of Brolo",
+        "rdfs:label" : "Saint Michael the Archangel of Brolo",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -1026,7 +1026,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.155_14.83.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525499/brolo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -1104,7 +1104,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.072_14.701.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523425/san-marco-d-alunzio.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -1162,7 +1162,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.123_14.787.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524020/naso.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -1245,7 +1245,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Enna",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.785_14.598.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2522849/troina.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -1298,7 +1298,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.83_14.862.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524322/maletto.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -1320,12 +1320,12 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1143",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Cosmas of Gonata",
+        "rdfs:label" : "Saint Cosmas at Gonata",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "San Cosma a Castelbuono",
+        "rdfs:label" : "San Cosma a Gonata",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -1366,7 +1366,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.932_14.089.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525103/castelbuono.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -1459,7 +1459,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Enna",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.785_14.598.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2522849/troina.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -1542,7 +1542,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.126_15.063.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523972/oliveri.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -1615,7 +1615,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.072_14.701.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523425/san-marco-d-alunzio.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -1688,7 +1688,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523920/palermo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -1741,7 +1741,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Agrigento",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.577_13.217.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525451/caltabellotta.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -1799,7 +1799,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Agrigento",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.45_13.5.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525764/agrigento.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -1877,7 +1877,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina?",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.235_15.469.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -1955,7 +1955,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.958_15.323.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525251/casalvecchio-siculo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val Demone",
@@ -2033,7 +2033,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.016_15.132.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523994/novara-di-sicilia.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -2086,7 +2086,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -2164,7 +2164,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.876_14.95.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523641/randazzo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -2217,7 +2217,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -2239,7 +2239,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1144",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Mary de Alto de Jummariis",
+        "rdfs:label" : "Saint Mary of the Giummare",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -2275,7 +2275,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Trapani",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.655_12.59.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524205/mazara-del-vallo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -2321,9 +2321,14 @@
       "dcterms:bibliographicCitation" : [ "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 88-89", "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42" ],
       "nsp:hasLocation" : {
         "nsp:archaeologicalRemains" : "unknown",
-        "nsp:hasName" : [ ],
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Massîni",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.183_15.517.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -2376,7 +2381,7 @@
         "nsp:archaeologicalRemains" : "unknown",
         "nsp:hasName" : [ ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.038_13.548.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525734/altavilla-milicia.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -2454,7 +2459,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.132_13.336.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523920/palermo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val di Mazara",
@@ -2507,7 +2512,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.148_15.21.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525597/barcellona-pozzo-di-gotto.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -2580,7 +2585,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina?",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.085_14.807.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525088/castell-umberto.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone?",
@@ -2607,7 +2612,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "Santa Maria di Mandinici",
+        "rdfs:label" : "Santa Maria di Mandanici",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -2648,7 +2653,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.004_15.317.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524310/mandanici.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -2717,7 +2722,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Trapani",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.804_12.438.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524245/marsala.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val di Mazara",
@@ -2768,9 +2773,14 @@
       "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42" ],
       "nsp:hasLocation" : {
         "nsp:archaeologicalRemains" : "unknown",
-        "nsp:hasName" : [ ],
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Massîni",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.274_15.537.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -2821,9 +2831,14 @@
       "dcterms:bibliographicCitation" : [ "White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42" ],
       "nsp:hasLocation" : {
         "nsp:archaeologicalRemains" : "unknown",
-        "nsp:hasName" : [ ],
+        "nsp:hasName" : [ {
+          "rdfs:label" : "Massîni",
+          "dcterms:language" : "unknown",
+          "nsp:isPreferred" : false,
+          "type" : "nsp:Name"
+        } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.126_15.489.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -2901,7 +2916,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523920/palermo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val di Mazara",
@@ -2969,7 +2984,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.571_14.903.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523866/paterno.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -3047,7 +3062,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.824_13.566.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2522774/vicari.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -3135,7 +3150,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Enna",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.785_14.598.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2522849/troina.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -3152,7 +3167,7 @@
     "type" : "Feature",
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ 12.590779, 37.653498 ]
+      "coordinates" : [ 12.612731, 37.651731 ]
     },
     "properties" : {
       "nsp:maxEarliestAttestation" : "1124",
@@ -3193,7 +3208,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Trapani",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.655_12.59.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524205/mazara-del-vallo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -3266,7 +3281,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.109_14.829.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524764/ficarra.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -3349,7 +3364,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Enna",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.785_14.598.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/11821412/ruderi-del-monastero-di-s-michele-arcangelo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -3407,7 +3422,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -3460,7 +3475,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina?",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.051_15.438.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524492/itala.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone?",
@@ -3529,7 +3544,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Caltanissetta",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.191_14.184.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525480/butera.html" ],
         "nsp:sesimicClassId" : 3,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -3607,7 +3622,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.055_14.91.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523658/raccuja.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val Demone",
@@ -3675,7 +3690,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.083_13.333.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523920/palermo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -3707,7 +3722,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "San Nicolò of Paternò",
+        "rdfs:label" : "San Nicolò di Paternò",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -3749,7 +3764,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.571_14.903.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523866/paterno.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -3812,7 +3827,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.933_15.01.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523594/roccella-valdemone.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -3834,7 +3849,7 @@
     "type" : "Feature",
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ 12.586792, 37.6537615 ]
+      "coordinates" : [ 12.5874, 37.65359 ]
     },
     "properties" : {
       "nsp:maxEarliestAttestation" : "1109",
@@ -3875,7 +3890,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Trapani",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.655_12.59.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/10376094/saint-nicolo-regale.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -3953,7 +3968,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina?",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.235_15.469.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524634/gesso.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone?",
@@ -3975,7 +3990,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1131",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Pancras of San Fratello",
+        "rdfs:label" : "Saint Pancras of Saint Fratello",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -4061,7 +4076,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.017_14.598.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523487/san-fratello.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -4109,7 +4124,7 @@
         "nsp:archaeologicalRemains" : "unknown",
         "nsp:hasName" : [ ],
         "nsp:isIn" : "Trapani?",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.865_12.468.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524039/mozia.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara?",
@@ -4162,7 +4177,7 @@
         "nsp:archaeologicalRemains" : "unknown",
         "nsp:hasName" : [ ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.094_14.68.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2522900/torrenova.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -4240,7 +4255,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo?",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.679_13.603.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525074/castronuovo-di-sicilia.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara?",
@@ -4303,7 +4318,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.958_15.323.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525251/casalvecchio-siculo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -4361,7 +4376,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.051_15.438.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524492/itala.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -4395,11 +4410,6 @@
       }, {
         "rdfs:label" : "San Filippo di Fragalà",
         "dcterms:language" : "it",
-        "nsp:isPreferred" : false,
-        "type" : "nsp:Name"
-      }, {
-        "rdfs:label" : "Saint Phillip of Demenna",
-        "dcterms:language" : "unknown",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
       }, {
@@ -4439,7 +4449,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.073_14.742.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524698/frazzano.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -4497,7 +4507,7 @@
         "nsp:archaeologicalRemains" : "unknown",
         "nsp:hasName" : [ ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.165_15.501.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523492/san-filippo-superiore.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone?",
@@ -4524,7 +4534,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1101",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Philip",
+        "rdfs:label" : "Saint Philip of Saint Lucy",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -4571,7 +4581,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.144_15.281.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523333/santa-lucia-del-mela.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -4629,7 +4639,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -4656,7 +4666,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : null,
       "nsp:hasName" : [ {
-        "rdfs:label" : "Christ the Savior in Messina",
+        "rdfs:label" : "Christ the Savior of Messina",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -4687,7 +4697,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -4704,12 +4714,12 @@
     "type" : "Feature",
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ 13.3586443, 38.1143913 ]
+      "coordinates" : [ 13.35888, 38.11442 ]
     },
     "properties" : {
       "nsp:maxEarliestAttestation" : null,
       "nsp:hasName" : [ {
-        "rdfs:label" : "Christ the Savior in Palermo",
+        "rdfs:label" : "Christ the Savior of Palermo",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -4760,7 +4770,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/10344717/chiesa-del-santissimo-salvatore.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -4808,7 +4818,7 @@
         "nsp:archaeologicalRemains" : "unknown",
         "nsp:hasName" : [ ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.902_15.137.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524707/francavilla-di-sicilia.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val Demone",
@@ -4871,7 +4881,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -4934,7 +4944,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.221_15.238.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524155/milazzo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -4987,7 +4997,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.085_14.751.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524131/mirto.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -5065,7 +5075,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Trapani",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.683_12.792.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525083/castelvetrano.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -5123,7 +5133,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.074_15.205.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525073/castroreale.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -5202,7 +5212,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.472_14.847.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525068/catania.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val Demone",
@@ -5266,7 +5276,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.616_15.025.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524010/nicolosi.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -5330,7 +5340,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.662_14.835.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525769/adrano.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -5384,7 +5394,7 @@
         "nsp:archaeologicalRemains" : "unknown",
         "nsp:hasName" : [ ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.615_14.891.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523320/santa-maria-di-licodia.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -5411,7 +5421,7 @@
     "type" : "Feature",
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ 13.3547141, 38.1097357 ]
+      "coordinates" : [ 13.35478, 38.10953 ]
     },
     "properties" : {
       "nsp:maxEarliestAttestation" : "1148",
@@ -5473,7 +5483,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/11822517/eglise-saint-jean-des-ermites.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -5552,7 +5562,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.681_13.379.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523925/palazzo-adriano.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val di Mazara",
@@ -5574,7 +5584,7 @@
     "type" : "Feature",
     "geometry" : {
       "type" : "Point",
-      "coordinates" : [ 13.2918855, 38.0782587 ]
+      "coordinates" : [ 13.29215, 38.08202 ]
     },
     "properties" : {
       "nsp:maxEarliestAttestation" : "1174",
@@ -5616,7 +5626,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.08_13.289.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/10401310/cattedrale-di-monreale.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -5685,7 +5695,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : null,
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525498/bronte.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -5722,7 +5732,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "Santa Maria de Giummare",
+        "rdfs:label" : "Santa Maria delle Giummare",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -5789,7 +5799,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Agrigento",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.508_13.088.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523194/sciacca.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -5868,7 +5878,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Syracuse",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.087_14.884.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525483/buscemi.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val di Noto",
@@ -5942,7 +5952,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.711_13.192.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2522818/ustica.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -5964,12 +5974,12 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1101",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Mary della Scala",
+        "rdfs:label" : "Saint Mary delle Scale",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "Santa Maria de Scalis",
+        "rdfs:label" : "Santa Maria delle Scale",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -6016,7 +6026,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -6048,7 +6058,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : null,
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Mary de Monialibus",
+        "rdfs:label" : "Saint Mary of the Nuns",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -6079,7 +6089,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Syracuse",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.088_15.279.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523083/siracusa.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -6132,7 +6142,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.662_14.835.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525769/adrano.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val Demone",
@@ -6211,7 +6221,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.299.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524928/corleone.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -6233,7 +6243,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1200",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Abbey of the Holy Trinity of the Chancellor in Palermo",
+        "rdfs:label" : "Holy Trinity of the Chancellor",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -6244,11 +6254,6 @@
         "type" : "nsp:Name"
       }, {
         "rdfs:label" : "La Magione",
-        "dcterms:language" : "unknown",
-        "nsp:isPreferred" : false,
-        "type" : "nsp:Name"
-      }, {
-        "rdfs:label" : "The Magione",
         "dcterms:language" : "unknown",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -6300,7 +6305,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523920/palermo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -6378,7 +6383,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523920/palermo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -6467,7 +6472,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.721_13.433.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523678/prizzi.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -6551,7 +6556,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.721_13.433.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523678/prizzi.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -6629,7 +6634,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523920/palermo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val di Mazara",
@@ -6713,7 +6718,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Agrigento",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.599_13.29.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525485/burgio.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -6772,7 +6777,7 @@
         "nsp:archaeologicalRemains" : "unknown",
         "nsp:hasName" : [ ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.615_14.891.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523320/santa-maria-di-licodia.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -6861,7 +6866,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523920/palermo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -6944,7 +6949,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.016_15.132.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523994/novara-di-sicilia.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -7003,7 +7008,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val Demone",
@@ -7082,7 +7087,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Syracuse",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_36.89_15.069.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523998/noto.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -7109,7 +7114,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1116",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Peter in Palermo",
+        "rdfs:label" : "Saint Peter of Palermo",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -7166,7 +7171,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523920/palermo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -7188,7 +7193,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : null,
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint James in Partinico",
+        "rdfs:label" : "Saint James of Partinico",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -7245,7 +7250,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.044_13.12.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523871/partinico.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -7329,7 +7334,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo?",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.679_13.603.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525074/castronuovo-di-sicilia.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara?",
@@ -7413,7 +7418,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo?",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.679_13.603.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525074/castronuovo-di-sicilia.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara?",
@@ -7472,7 +7477,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -7561,7 +7566,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.821_15.228.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525459/calatabiano.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -7635,7 +7640,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Syracuse",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.285_15.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524410/lentini.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -7729,7 +7734,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Syracuse",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_36.89_15.069.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523998/noto.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -7808,7 +7813,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.822_13.855.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523185/sclafani-bagni.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -7882,7 +7887,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.299.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524928/corleone.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -7951,7 +7956,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.221_15.238.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524155/milazzo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -7978,7 +7983,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "Santissimo Salvatore e Santi Pietro e Paolo Cefalù",
+        "rdfs:label" : "Santissimo Salvatore e Santi Pietro e Paolo a Cefalù",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -8015,7 +8020,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.032_14.01.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525041/cefalu.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -8079,7 +8084,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Syracuse",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.088_15.279.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523083/siracusa.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -8106,7 +8111,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "San Giorgio a Gratteri",
+        "rdfs:label" : "San Giorgio di Gratteri",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -8138,7 +8143,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.966_13.972.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524572/gratteri.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -8202,7 +8207,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.148_15.21.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525597/barcellona-pozzo-di-gotto.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -8281,7 +8286,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.571_14.903.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523866/paterno.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -8308,7 +8313,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "Santa Maria Maddalena Giosafat",
+        "rdfs:label" : "Santa Maria Maddalena di Giosafat",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -8345,7 +8350,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -8419,7 +8424,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Trapani",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.019_12.886.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525095/castellammare-del-golfo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -8493,7 +8498,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Enna",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.656_14.522.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525767/agira.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val di Noto",
@@ -8520,7 +8525,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1151",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Mary of the Latins at Polizzi",
+        "rdfs:label" : "Saint Mary of the Latins of Polizzi",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -8572,7 +8577,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.812_14.003.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523736/polizzi-generosa.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -8641,7 +8646,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.848_14.478.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525387/capizzi.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -8725,7 +8730,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Ragusa",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_36.926_14.724.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523650/ragusa.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -8757,7 +8762,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "Santa Maria Latina",
+        "rdfs:label" : "Santa Maria dei Latina",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -8789,7 +8794,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -8811,7 +8816,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1148",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Andrew at Piazza Armerina",
+        "rdfs:label" : "Saint Andrew of Piazza Armerina",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -8863,7 +8868,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Enna",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.386_14.367.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523796/piazza-armerina.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Noto",
@@ -8932,7 +8937,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.662_14.835.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525769/adrano.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -9011,7 +9016,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Caltanissetta",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.49_14.062.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525448/caltanissetta.html" ],
         "nsp:sesimicClassId" : 4,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val di Mazara",
@@ -9080,7 +9085,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -9118,7 +9123,7 @@
       "cito:citesForInformation" : [ "https://www.zotero.org/groups/2199947/norman_sicily_project/items/itemKey/8D8GP7NX" ],
       "nsp:recordStatus" : "draft",
       "nsp:order" : "Augustinian Canons",
-      "dbo:notes" : "Luigi Santagati, _Viabilità e topografia della Sicilia antica_, vol. 2 (Caltanissetta, 2013), 88 (s.v. \"Fessina\"), places this near Aidone, near Pietratagliata in Contrada San Bartoloaa",
+      "dbo:notes" : "Luigi Santagati, _Viabilità e topografia della Sicilia antica_, vol. 2 (Caltanissetta, 2013), 88 (s.v. \"Fessina\"), places this near Aidone, near Pietratagliata in Contrada San Bartolo.",
       "nsp:earliestAttestation" : null,
       "nsp:minEarliestAttestation" : null,
       "nsp:rankAtFoundation" : null,
@@ -9154,7 +9159,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Enna?",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.415_14.445.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525761/aidone.html" ],
         "nsp:sesimicClassId" : null,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto?",
@@ -9181,7 +9186,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "null",
+        "rdfs:label" : "Sconosciuto",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -9223,7 +9228,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.298_14.841.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523180/scordia.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -9245,7 +9250,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : null,
       "nsp:hasName" : [ {
-        "rdfs:label" : "Hospital of Saint John the Baptist of Jerusalem",
+        "rdfs:label" : "Hospital of Saint John of Jerusalem",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -9282,7 +9287,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Messina",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_38.05_14.867.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524170/messina.html" ],
         "nsp:sesimicClassId" : 1,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -9304,7 +9309,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1181",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Hospital of All Saints at Palermo",
+        "rdfs:label" : "Hospital of All Saints of Palermo",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -9361,7 +9366,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.817_13.583.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523920/palermo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Mazara",
@@ -9429,7 +9434,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Syracuse",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.285_15.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524410/lentini.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val di Noto",
@@ -9456,7 +9461,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "Santa Maria del Pedale",
+        "rdfs:label" : "Santa Maria di Pedale",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -9502,7 +9507,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.918_13.936.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524964/collesano.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -9534,7 +9539,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "Santa Maria di Gratteri",
+        "rdfs:label" : "Santa Anastasia di Gratteri",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
@@ -9581,7 +9586,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.932_14.089.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525103/castelbuono.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "generic_handheld_gps",
         "nsp:wasIn" : "Val Demone",
@@ -9664,7 +9669,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Palermo",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.86_14.154.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2524641/geraci-siculo.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "google_earth",
         "nsp:wasIn" : "Val Demone",
@@ -9686,7 +9691,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1143",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Christ the Savior",
+        "rdfs:label" : "Christ the Savior of Cerami",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -9748,7 +9753,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Enna",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.811_14.507.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2525031/cerami.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -9817,7 +9822,7 @@
           "type" : "nsp:Name"
         } ],
         "nsp:isIn" : "Catania",
-        "rdfs:seeAlso" : [ "http://www.geonames.org/maps/google_37.571_14.903.html" ],
+        "rdfs:seeAlso" : [ "http://www.geonames.org/2523866/paterno.html" ],
         "nsp:sesimicClassId" : 2,
         "nsp:positionalAccuracyAssessment" : "unknown",
         "nsp:wasIn" : "Val Demone",
@@ -9988,7 +9993,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : null,
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Mary de Baratathe",
+        "rdfs:label" : "Saint Mary of Baratathe",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -10090,7 +10095,7 @@
     "properties" : {
       "nsp:maxEarliestAttestation" : "1156",
       "nsp:hasName" : [ {
-        "rdfs:label" : "Saint Nicholas de Arena",
+        "rdfs:label" : "Saint Nicholas of Arena",
         "dcterms:language" : "en",
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
@@ -10202,7 +10207,7 @@
         "nsp:isPreferred" : true,
         "type" : "nsp:Name"
       }, {
-        "rdfs:label" : "San Nicola Butana",
+        "rdfs:label" : "San Nicola di Butana",
         "dcterms:language" : "it",
         "nsp:isPreferred" : false,
         "type" : "nsp:Name"
