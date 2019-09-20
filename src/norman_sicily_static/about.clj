@@ -19,7 +19,14 @@
         " itself, from the Herman and Margaret Sokol Faculty/Student Research Grant Program that is administered by MSU&#39;s "
         [:a {:href "https://www.montclair.edu/csam/"} "College of Science and Mathematics"]
         " (CSAM) as well as from MSU&#39;s "
-        [:a {:href "https://www.montclair.edu/csam/pseg-sustainability-institute/"} "PSEG Institute for Sustainability Studies"]"."]
+        [:a {:href "https://www.montclair.edu/csam/pseg-sustainability-institute/"} "PSEG Institute for Sustainability Studies"]"."
+        " In addition, we are also enormously grateful for the support of the " [:a {:href "https://www.neh.gov/"} "National Endowment for the Humanities"]
+        ", whose logo appears below, for the generous grant it awarded the project for the 2019-2020 academic year through its "
+        [:a {:href "https://www.neh.gov/grants/preservation/humanities-collections-and-reference-resources"} "Humanities Collections and Reference Resources"]
+        " program."
+        [:a {:href "https://www.neh.gov/"}
+         [:img {:class "img-responsive centered-responsive-img in-text-img" :src "/images/NEH-Preferred-Seal820.jpg"
+                :alt "National Endowment for the Humanities logo"}]]]
        [:p "More information about Dr. Hayes&#39; research on medieval Sicily is available on her "
         [:a {:href "http://www.thehayesweb.org/dhayes"} "website"]". Information about Joe Hayes, the project&#39;s primary developer, may be found on his "
         [:a {:href "https://www.linkedin.com/in/joephayes/"} "LinkedIn"]" page."]]]]]
@@ -43,6 +50,10 @@
         data in new ways. In addition, Matthew Parlapiano (" [:a {:href "https://www.montclair.edu/cehs/"} "CEHS"]
         ", 2019) did a fine job of extracting data from Alexander of Telese's " [:em "History"]
         ", performing the tedious work of preparing the text for machine processing. We are enormously grateful to each of them."]
+       [:p "Other assistance was generously offered by Max Wilson (B.A., "
+        [:a {:href "http://yale.edu/"} "Yale University"] ", 2019), who served as a research assistant during the project's 2019 fieldwork. That same summer, Anastasia Hayes (B.A., "
+        [:a {:href "https://macaulay.cuny.edu/" } "Macaulay Honors College"] ", " [:a {:href "https://www.cuny.edu/"} "CUNY"] ", 2017) provided invaluable translation support and participated in data collection as Madeleine Hayes (B.A., "
+        [:a {:href "https://macaulay.cuny.edu/" } "Macaulay Honors College"] ", " [:a {:href "https://www.cuny.edu/"} "CUNY"] ", 2018) navigated and managed logistics of travel."]
        [:p "We are also grateful to Mel Colella, whose fine editing skills greatly improved the opening video."]
-       [:p "In addition, an enormous debt of gratitude is owed to the countless Sicilians who, in numerous ways,
+       [:p "Last but not least, an enormous debt of gratitude is owed to the countless Sicilians who, in numerous ways,
            have helped make this project possible. We hope that this effort is a small repayment for their unfailing kindness and generosity."]]]]]])
