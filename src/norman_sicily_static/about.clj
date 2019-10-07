@@ -49,10 +49,17 @@
         as her knowledge of R to the project, making it possible to consider the
         data in new ways. In addition, Matthew Parlapiano (" [:a {:href "https://www.montclair.edu/cehs/"} "CEHS"]
         ", 2019) did a fine job of extracting data from Alexander of Telese's " [:em "History"]
-        ", performing the tedious work of preparing the text for machine processing. We are enormously grateful to each of them."]
-       [:p "Other assistance was generously offered by Max Wilson (B.A., "
-        [:a {:href "http://yale.edu/"} "Yale University"] ", 2019), who served as a research assistant during the project's 2019 fieldwork. That same summer, Anastasia Hayes (B.A., "
-        [:a {:href "https://macaulay.cuny.edu/" } "Macaulay Honors College"] ", " [:a {:href "https://www.cuny.edu/"} "CUNY"] ", 2017) provided invaluable translation support and participated in data collection as Madeleine Hayes (B.A., "
+        ", performing the tedious work of preparing the text for machine processing. During the 2019-2020 academic year, we are fortunate to have working on the project as media and metadata assistants Christina Giordano ("
+        [:a {:href "https://www.montclair.edu/chss/"} "CHSS"] " and " [:a {:href "https://www.montclair.edu/arts/"} "CART"]
+        ", 2022), Grace Last (" [:a {:href "https://www.montclair.edu/chss/"} "CHSS"]
+        ", 2021), Alessandra Lentini (" [:a {:href "https://www.montclair.edu/arts/"} "CART"]
+        ", 2021) and Charlee Reiff (" [:a {:href "https://www.montclair.edu/arts/"} "CART"] ", 2020). We are very grateful to each of them."]
+       [:p "We are also indebted to Dot Porter, Curator of Digital Research Services at the "
+        [:a {:href "https://schoenberginstitute.org/" } "Schoenberg Institute for Manuscript Studies"] " at the "
+        [:a {:href "https://home.www.upenn.edu/"} "University of Pennsylvania"] " for student training and for supporting the organization and processing of the monastic media during the 2019-2020 academic year."]
+       [:p "Other assistance was generously offered by Max Wilson ("
+        [:a {:href "http://yale.edu/"} "Yale University"] ", 2019), who served as a research assistant during the project's 2019 fieldwork. That same summer, Anastasia Hayes ("
+        [:a {:href "https://macaulay.cuny.edu/" } "Macaulay Honors College"] ", " [:a {:href "https://www.cuny.edu/"} "CUNY"] ", 2017) provided invaluable translation support and participated in data collection as Madeleine Hayes ("
         [:a {:href "https://macaulay.cuny.edu/" } "Macaulay Honors College"] ", " [:a {:href "https://www.cuny.edu/"} "CUNY"] ", 2018) navigated and managed logistics of travel."]
        [:p "We are also grateful to Mel Colella, whose fine editing skills greatly improved the opening video."]
        [:p "Last but not least, an enormous debt of gratitude is owed to the countless Sicilians who, in numerous ways,
