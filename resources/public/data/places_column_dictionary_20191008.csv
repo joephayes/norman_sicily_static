@@ -2,6 +2,7 @@ name,description,uri
 location_see_also_uris,Comma delimited list of URIs that can be accessed for additional information about the location,http://www.w3.org/2000/01/rdf-schema#seeAlso
 children,pipe delimited list of the subject monastic houses of the place. The name of the subject house is given.,
 alternate_location_names,Pipe delimited list of alternate names for the location of the place. Language code is given after the name in parenthesis,http://www.w3.org/2000/01/rdf-schema#label
+alternate_place_names,Pipe delimited list of alternate names for the place. Language code is given after the name in parenthesis,http://www.w3.org/2000/01/rdf-schema#label
 elevation,The WGS84 altitude of a spatial thing (decimal meters above the local reference ellipsoid),http://www.w3.org/2003/01/geo/wgs84_pos#alt
 rank_at_foundation,The rank of the place at its foundation,
 parent,The name of the monastic house's parent house,
