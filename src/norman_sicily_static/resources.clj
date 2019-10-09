@@ -40,22 +40,22 @@
            :sameAs "https://github.com/the-norman-sicily-project/data-dumps/tree/master/2019-10-08"
            :distribution [{"@type" "DataDownload"
                            :encodingFormat "text/csv"
-                           :contentUrl "http://www.normansicily.org/data/places-20191008.csv"}
+                           :contentUrl "http://www.normansicily.org/data/places-20191009.csv"}
                           {"@type" "DataDownload"
                            :encodingFormat "application/geo+json"
-                           :contentUrl "http://www.normansicily.org/data/places-20191008.geojson"}
+                           :contentUrl "http://www.normansicily.org/data/places-20191009.geojson"}
                           {"@type" "DataDownload"
                            :encodingFormat "application/ld+json"
-                           :contentUrl "http://www.normansicily.org/data/places-20191008.jsonld"}
+                           :contentUrl "http://www.normansicily.org/data/places-20191009.jsonld"}
                           {"@type" "DataDownload"
                            :encodingFormat "text/n3"
-                           :contentUrl "http://www.normansicily.org/data/places-riot-20191008.n3"}
+                           :contentUrl "http://www.normansicily.org/data/places-riot-20191009.n3"}
                           {"@type" "DataDownload"
                            :encodingFormat "application/rdf+xml"
-                           :contentUrl "http://www.normansicily.org/data/places-riot-20191008.rdfxml"}
+                           :contentUrl "http://www.normansicily.org/data/places-riot-20191009.rdfxml"}
                           {"@type" "DataDownload"
                            :encodingFormat "text/turtle"
-                           :contentUrl "http://www.normansicily.org/data/places-riot-20191008.ttl"}]
+                           :contentUrl "http://www.normansicily.org/data/places-riot-20191009.ttl"}]
            :license "http://creativecommons.org/licenses/by-sa/4.0/"
            :temporalCoverage "1060/1194"
            :spatialCoverage {"@type" "Place"
@@ -65,14 +65,14 @@
        [:p "Currently, the dataset includes Norman monasteries in Sicily from
            the period beginning 1060 until 1194. It is available in various
            formats, including "
-        [:a {:href "/data/places-20191008.csv"} "CSV"] ", "
-        [:a {:href "/data/places-20191008.geojson"} "GeoJSON"] ", "
-        [:a {:href "/data/places-20191008.jsonld"} "JSON-LD"] ", "
-        [:a {:href "/data/places-riot-20191008.n3"} "N3"] ", "
-        [:a {:href "/data/places-riot-20191008.rdfxml"} "RDF/XML"] " and "
-        [:a {:href "/data/places-riot-20191008.ttl"} "TTL"]
+        [:a {:href "/data/places-20191009.csv"} "CSV"] ", "
+        [:a {:href "/data/places-20191009.geojson"} "GeoJSON"] ", "
+        [:a {:href "/data/places-20191009.jsonld"} "JSON-LD"] ", "
+        [:a {:href "/data/places-riot-20191009.n3"} "N3"] ", "
+        [:a {:href "/data/places-riot-20191009.rdfxml"} "RDF/XML"] " and "
+        [:a {:href "/data/places-riot-20191009.ttl"} "TTL"]
         ". For the CSV and GeoJSON formats, there is a "
-        [:a {:href "/data/places_column_dictionary_20191008.csv"} "data dictionary"]
+        [:a {:href "/data/places_column_dictionary_20191009.csv"} "data dictionary"]
         " to describe the columns."]
        [:p "All of the datasets are LOD three star compliant "
         [:a {:href "https://5stardata.info/en/"}
