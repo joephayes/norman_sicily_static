@@ -53,18 +53,18 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.normansicily.org/data/places-20191008.geojson</loc>
-  <lastmod>2019-10-08T22:03:49+00:00</lastmod>
+  <loc>http://www.normansicily.org/data/places-20191009.geojson</loc>
+  <lastmod>2019-10-09T22:03:49+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.normansicily.org/data/places-20191008.jsonld</loc>
-  <lastmod>2019-10-08T22:03:54+00:00</lastmod>
+  <loc>http://www.normansicily.org/data/places-20191009.jsonld</loc>
+  <lastmod>2019-10-09T22:03:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.normansicily.org/data/places-riot-20191008.rdfxml</loc>
-  <lastmod>2019-10-08T22:04:05+00:00</lastmod>
+  <loc>http://www.normansicily.org/data/places-riot-20191009.rdfxml</loc>
+  <lastmod>2019-10-09T22:04:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
