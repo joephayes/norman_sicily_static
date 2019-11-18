@@ -6,10 +6,8 @@
    [:div {:class "row"}
     [:div {:class "col-lg-12"}
      [:div {:class "inner"}
-      [:div {:class "text-center"}
-       [:div {:class "credits-header"} "People Page"]
-       [:p "This page, which will ultimately host an interactive genealogy, is under construction. Roger II, Sicily&#39;s first king, is the trunk."]
-       [:figure
-        [:p]
-        [:img {:class "img-responsive centered-responsive-img", :src "/images/roger_ii_family_tree.png"}]
-        [:figcaption "Ancestor Chart for Roger II, King of Sicily (ca. 1095 - 1154), and his Wives"]]]]]]] )
+      [:div {:class "ifm-container people-ifm"}
+       [:iframe {:src "/people/family-tree/nsp.html"}]]
+      [:div {:class "text-center top-padding"}
+       [:p "Hover over individual nodes to discover relationships. Nodes can be moved with a click of the mouse and you may zoom in or zoom out on the graph."]
+       [:p "The mother-child link between Elvira of León-Castile and Gisela of Burgundy is based on Dr. Hayes' proposal in " [:em "Roger II of Sicily: Family, Faith and Empire in the Medieval Mediterranean World (Brepols, 2020)"]]]]]]])
