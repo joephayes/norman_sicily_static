@@ -24,7 +24,7 @@
        [:p "Previous versions and source code are available via "
         [:a {:href "https://github.com/the-norman-sicily-project/vocabulary"}
          "Github."]]
-       [:div {:class "credits-header"} "Datasets"]
+       [:div {:class "credits-header"} "Site Dataset"]
        [:script {:type "application/ld+json"}
         (json/generate-string
           {"@context" "http://schema.org"
@@ -35,9 +35,9 @@
                      :name "The Norman Sicily Project"
                      :url "http://www.normansicily.org/"}
            :datePublished "2018-07-27"
-           :dateModified "2019-10-08"
+           :dateModified "2019-10-09"
            :url "http://www.normansicily.org/data/"
-           :sameAs "https://github.com/the-norman-sicily-project/data-dumps/tree/master/2019-10-08"
+           :sameAs "https://github.com/the-norman-sicily-project/data-dumps/tree/master/2019-10-09"
            :distribution [{"@type" "DataDownload"
                            :encodingFormat "text/csv"
                            :contentUrl "http://www.normansicily.org/data/places-20191009.csv"}
@@ -62,7 +62,7 @@
                              :name "Sicily"
                              :containedIn {"@type" "Place"
                                            :name "Italy"}}})]
-       [:p "Currently, the dataset includes Norman monasteries in Sicily from
+       [:p "Currently, the site dataset includes Norman monasteries in Sicily from
            the period beginning 1060 until 1194. It is available in various
            formats, including "
         [:a {:href "/data/places-20191009.csv"} "CSV"] ", "
@@ -74,11 +74,54 @@
         ". For the CSV and GeoJSON formats, there is a "
         [:a {:href "/data/places_column_dictionary_20191009.csv"} "data dictionary"]
         " to describe the columns."]
+       [:p "Previous versions and source code are available via "
+        [:a {:href "https://github.com/the-norman-sicily-project/data-dumps"} "Github"] "."]
+       [:div {:class "credits-header"} "People Dataset"]
+       [:script {:type "application/ld+json"}
+        (json/generate-string
+          {"@context" "http://schema.org"
+           "@type" "Dataset"
+           :name "The Norman Sicily Project People data"
+           :description "Data about people collected by The Norman Sicily Project"
+           :creator {"@type" "Organization"
+                     :name "The Norman Sicily Project"
+                     :url "http://www.normansicily.org/"}
+           :datePublished "2018-11-18"
+           :dateModified "2019-11-18"
+           :url "http://www.normansicily.org/data/"
+           :sameAs "https://github.com/the-norman-sicily-project/genealogical-trees/tree/jph-nsp/data"
+           :distribution [{"@type" "DataDownload"
+                           :encodingFormat "text/plain"
+                           :contentUrl "http://www.normansicily.org/data/nsp.ged"}
+                          {"@type" "DataDownload"
+                           :encodingFormat "text/turtle"
+                           :contentUrl "http://www.normansicily.org/data/nsp.ged.ttl"}
+                          {"@type" "DataDownload"
+                           :encodingFormat "text/plain"
+                           :contentUrl "http://www.normansicily.org/data/nsp.ged.ttl.owl"}
+                          {"@type" "DataDownload"
+                            :encodingFormat "text/plain"
+                            :contentUrl "http://www.normansicily.org/data/nsp.json"}]
+           :license "http://creativecommons.org/licenses/by-sa/4.0/"
+           :temporalCoverage "900/1300"
+           :spatialCoverage {"@type" "Place"
+                             :name "Europe"}})]
+       [:p "Currently, the people dataset includes the Hautevilles who ruled Sicily and southern Italy as well as a wide variety
+           of individuals who were part of their extended family network. Developed from numerous published scholarly sources,
+           the tree is both chronologically and geographically broad in an effort to situate the Hautevilles within numerous
+           aristocratic families from across the European continent. With that said, the genealogy is meant to be suggestive,
+           not comprehensive. It is available for download in various formats, including "
+        [:a {:href "/data/nsp.ged"} "GEDCOM"] ", "
+        [:a {:href "/data/nsp.ged.ttl"} "TTL"] ", "
+        [:a {:href "/data/nsp.ged.ttl.owl"} "OWL"] " and "
+        [:a {:href "/data/nsp.json"} "JSON."]]
+       [:p "Source code available via "
+        [:a {:href "https://github.com/the-norman-sicily-project/genealogical-trees"} "Github"] "."]
+       [:div {:class "credits-header"} "Dataset Notes"]
        [:p "All of the datasets are LOD three star compliant "
         [:a {:href "https://5stardata.info/en/"}
          [:img {:src "/images/data-badge-3.png"}]] "."]
        [:p "All of the datasets are released under "
         [:a {:rel "license" :href "http://creativecommons.org/licenses/by-sa/4.0/"}
-         [:img {:alt "Creative Commons License" :style "border-width:0;padding-bottom:10px" :src "https://i.creativecommons.org/l/by-sa/4.0/88x31.png"}]]]
-       [:p "Previous versions and source code are available via "
-        [:a {:href "https://github.com/the-norman-sicily-project/data-dumps"} "Github"] "."]]]]]])
+         [:img {:alt "Creative Commons License" :style "border-width:0;padding-bottom:10px" :src "https://i.creativecommons.org/l/by-sa/4.0/88x31.png"}]]]]]]]])
+
