@@ -37,7 +37,7 @@
                          "https://www.linkedin.com/in/dawn-marie-hayes-49b05414/",
                          "http://viaf.org/viaf/76568635",
                          "https://www.researchgate.net/profile/Dawn_Hayes3",
-                         "https://www.montclair.edu/profilepages/view_profile.php?username=hayesd" ]}
+                         "https://www.montclair.edu/profilepages/view_profile.php?username=hayesd"]}
                {"@type" "Person"
                 :name "Joseph Hayes"
                 :email "mailto:joephayes@gmail.com"
@@ -49,6 +49,16 @@
                "https://github.com/the-norman-sicily-project"
                "http://www.worldcat.org/oclc/1003325014"]
       :license "http://creativecommons.org/licenses/by-sa/4.0/"})])
+
+(defn render-org-data
+  []
+  [:script {:type "application/ld+json"}
+   (json/generate-string
+     {"@context" "http://schema.org"
+      "@type" "Organization"
+      :url "http://www.normansicily.org/"
+      :name "The Norman Sicily Project"
+      :logo "http://www.normansicily.org/images/favicon-128.png"})])
 
 (defn render-footer
   []

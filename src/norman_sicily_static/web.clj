@@ -36,7 +36,7 @@
     (assets/load-assets "public" ["/scripts/app.js" "/scripts/bootstrap.min.js" "/scripts/tether.min.js"])
     (assets/load-bundle "public" "app.css" ["/styles/app.less"])
     (assets/load-assets "public" [#"/svg/.*"])
-    (assets/load-assets "public" ["/favicon.ico" "/robots.txt" "/sitemap.xml"])))
+    (assets/load-assets "public" ["/browserconfig.xml" "/favicon.ico" "/manifest.json" "/robots.txt" "/sitemap.xml"])))
 
 (defn layout-page [request page]
   (let [site-title "The Norman Sicily Project"
@@ -87,6 +87,7 @@
         (partials/render-navbar)
         page]
        (partials/render-site-data)
+       (partials/render-org-data)
        (partials/render-footer)
        [:script
         {:src "https://code.jquery.com/jquery-3.2.1.slim.min.js"
