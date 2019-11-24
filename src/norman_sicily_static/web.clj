@@ -66,11 +66,11 @@
        [:meta {:property "og:type" :content "website"}]
        [:meta {:property "og:url" :content web-url}]
        [:meta {:property "og:description" :content site-description}]
-       [:meta {:property "og:image" :content (str web-url "images/favicon-196.png")}]
-       [:meta {:property "og:image:url" :content (str web-url "images/favicon-196.png")}]
+       [:meta {:property "og:image" :content (str web-url "images/favicon-200.png")}]
+       [:meta {:property "og:image:url" :content (str web-url "images/favicon-200.png")}]
        [:meta {:property "og:image:type" :content "image/png"}]
-       [:meta {:property "og:image:width" :content "196"}]
-       [:meta {:property "og:image:height" :content "196"}]
+       [:meta {:property "og:image:width" :content "200"}]
+       [:meta {:property "og:image:height" :content "200"}]
        [:title site-title]
        (optimus.html/link-to-css-bundles request ["app.css"])
        (javascript-tag (str
