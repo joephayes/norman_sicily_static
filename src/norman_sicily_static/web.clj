@@ -26,7 +26,7 @@
 
 (def config
   (let [env (or (System/getenv "ENVIRONMENT") "dev")]
-      {:env (keyword env) }))
+      {:env (keyword env)}))
 
 (defn get-assets []
   (concat
@@ -46,6 +46,16 @@
      [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge"}]
      [:meta {:name "viewport"
              :content "width=device-width, initial-scale=1.0"}]
+     [:link {:rel "apple-touch-icon" :sizes "180x180" :href "/images/favicon-180.png"}]
+     [:link {:rel "apple-touch-icon" :sizes "167x167" :href "/images/favicon-167.png"}]
+     [:link {:rel "apple-touch-icon" :sizes "152x152" :href "/images/favicon-152.png"}]
+     [:link {:rel "icon" :type "image/png" :sizes "192x192" :href "/images/favicon-192.png"}]
+     [:link {:rel "icon" :type "image/png" :sizes "32x32" :href  "/images/favicon-32.png"}]
+     [:link {:rel "shortcut icon" :type "image/png" :sizes "196x196" :href "/images/favicon-196.png"}]
+     [:link {:rel "shortcut icon" :href "/favicon.ico"}]
+     [:link {:rel "manifest" :href "/manifest.json"}]
+     [:meta {:name "msapplication-TileColor" :content "#fff"}]
+     [:meta {:name "msapplication-config" :content "/browserconfig.xml"}]
      [:title "The Norman Sicily Project"]
      (optimus.html/link-to-css-bundles request ["app.css"])
      (javascript-tag (str
